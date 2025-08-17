@@ -1,0 +1,955 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Template based on a syllabus by Mitch Keller -->
+<pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <!-- we first include a file which contains the docinfo element: -->
+  <xi:include href="./docinfo.ptx" />
+
+  <article xml:id="objectives">
+    <title>MATH 155 Section Objectives</title>
+
+    <!-- Include sections -->
+<p>
+   After your class meetings and engaging in homework and practice, you should be able to do the following:
+</p>
+<dl>
+<li>
+  <title>§1.2</title>
+
+  <p>
+    <ol>
+      <li>
+        <p>
+          Determine whether a relation is a function.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Represent functions as equations, graphs, and tables.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Determine the domain and range of a function.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Identify the variables and parameters in a model.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Combine functions using addition, subtraction, multiplication, division, and composition.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Determine whether a function is invertible.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Find/describe the inverse function of an invertible function.
+        </p>
+      </li>
+    </ol>
+  </p>
+</li>
+
+<li>
+  <title>§1.3</title>
+
+  <p>
+    <ol>
+      <li>
+        <p>
+          Convert between different units measuring the same dimension.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Use fundamental relations to convert from one dimension to another.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Recognize function transformations in an equation.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Identify how function transformations change the graph of a function.
+        </p>
+      </li>
+    </ol>
+  </p>
+</li>
+
+<li>
+  <title>§1.4</title>
+
+  <p>
+    <ol>
+      <li>
+        <p>
+          Determine if a relationship is linear/proportional from a table, graph, or equation.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Represent linear relationships in slope-intercept and point-slope form.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Solve linear equations.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Determine the units for the rate of change of a linear relationship in the context of a problem.
+        </p>
+      </li>
+    </ol>
+  </p>
+</li>
+
+<li>
+  <title>§1.5</title>
+
+  <p>
+    <ol>
+      <li>
+        <p>
+          Model an exponential relationships in the form <m>y=ab^{x}</m> and <m>y=ae^{kx}</m>.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Determine from an exponential equation whether the graph is growth or decay.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Determine the half-life or doubling-time of an exponential relationship.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Solve exponential equations using logarithms.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Fit and scale data using logarithms.
+        </p>
+      </li>
+    </ol>
+  </p>
+</li>
+
+<li>
+  <title>§1.6</title>
+
+  <p>
+    <ol>
+      <li>
+        <p>
+          Determine values of <m>\sin(x)</m>, <m>\cos(x)</m>, and <m>\tan(x)</m> on the unit circle.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Determine the amplitude, average, period, and phase of a trigonometric function graphically and algebraically.
+        </p>
+      </li>
+    </ol>
+  </p>
+</li>
+
+<li>
+  <title>§1.7</title>
+
+  <p>
+    <ol>
+      <li>
+        <p>
+          Compute a table of values for both the updating function and solution function of a DTDS.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Determine the solution function of a DTDS with a linear updating function given an initial condition.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Graph the updating and solution functions of a DTDS with appropriate labels.
+        </p>
+      </li>
+    </ol>
+  </p>
+</li>
+
+<li>
+  <title>§1.8</title>
+
+  <p>
+    <ol>
+      <li>
+        <p>
+          Determine equilibrium points of a DTDS algebraically and graphically.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Use cob-webbing to describe the qualitative behavior of a solution with various initial values.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Use cob-webbing to classify an equilibrium point as stable or unstable.
+        </p>
+      </li>
+    </ol>
+  </p>
+</li>
+
+<li>
+  <title>§1.9</title>
+
+  <p>
+    <ol>
+      <li>
+        <p>
+          Use the lung model to model lung concentration (and similar systems)
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Recognize expressions as weighted averages and compute weighted averages
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Model non-linear systems by measuring population proportions
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Determine equilibrium points of non-linear systems and classify their stability
+        </p>
+      </li>
+    </ol>
+  </p>
+</li>
+
+<li>
+  <title>§2.1</title>
+
+  <p>
+    <ol>
+      <li>
+        <p>
+          Explain the difference between <m>\displaystyle \lim_{x \to a}f(x)</m> and <m>f(a)</m>, and sketch examples of graphs that illustrate this difference.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Compute <m>\displaystyle \lim_{x \to a}f(x)</m>, <m>\displaystyle \lim_{x \to a^-}f(x)</m>, and <m>\displaystyle \lim_{x \to a^+}f(x)</m> using the graph of the function <m>f(x)</m>.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Estimate <m>\displaystyle \lim_{x \to a}f(x)</m> using a table of values.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Explain when <m>\displaystyle \lim_{x \to a}f(x)</m> does not exist, and sketch examples of graphs that illustrate this.
+        </p>
+      </li>
+    </ol>
+  </p>
+</li>
+
+<li>
+  <title>§2.2</title>
+
+  <p>
+    <ol>
+      <li>
+        <p>
+          Recognize and compute the average rate of change between two points using the form <m>\dfrac{f(a +h) - f(a)}{h}</m>.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Illustrate what the average rate of change between two points represents graphically.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Write down and explain the limit definition of the instantaneous rate of change at a point (<em>derivative</em> at a point):
+          <me>
+            f'(a) = \lim_{h \to 0}\dfrac{f(a +h) - f(a)}{h}.
+          </me>
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Know how to estimate the instantaneous rate of change at a point using a table of values.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Illustrate what the instantaneous rate of change at a point represents graphically.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Compare values of the first derivative at different points using the graph of <m>f(x)</m>.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Determine the units of the derivative function <m>f(x)</m> in the context of a problem.
+        </p>
+      </li>
+    </ol>
+  </p>
+</li>
+
+<li>
+  <title>§2.3</title>
+
+  <p>
+    <ol>
+      <li>
+        <p>
+          Explain how we define the <em>derivative function</em>.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Recognize various notations used to represent the derivative function: <m>f'(x), \dfrac{dy}{dx}, \dfrac{d}{dx}(f(x))</m>
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Recognize points of <m>f(x)</m> for which <m>f'(x)</m> does not exist.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Use the limit definition of derivative to compute the derivative function for elementary functions.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Use the graph of <m>f(x)</m> to sketch the graph of <m>f'(x)</m>.
+        </p>
+      </li>
+    </ol>
+  </p>
+</li>
+
+<li>
+  <title>§2.4</title>
+
+  <p>
+    <ol>
+      <li>
+        <p>
+          Determine when a function <m>f(x)</m> is increasing/decreasing using the derivative function <m>f'(x)</m>.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Identify points where <m>f''(x)</m> is positive, negative, and zero using the graph of <m>f(x)</m>.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Compare values of the second derivative at different points using the graph of <m>f(x)</m>.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Compute <m>f''(x)</m> given an explicit function <m>f(x)</m>.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Interpret and use the first derivative and second derivative in the context of position, velocity, and acceleration.
+        </p>
+      </li>
+    </ol>
+  </p>
+</li>
+
+<li>
+  <title>§2.5</title>
+
+  <p>
+    <ol>
+      <li>
+        <p>
+          Write the equation of the tangent line at a point.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Use algebra to re-write functions in order to take derivatives using derivative rules.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Use the power rule, exponential rule, sum rule, and constant multiple rule to compute derivatives of explicit functions.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Use the power rule, exponential rule, sum rule, and constant multiple rule to compute derivatives of functions numerically (e.g., using information about functions provided in a table or graph).
+        </p>
+      </li>
+    </ol>
+  </p>
+</li>
+
+<li>
+  <title>§2.6</title>
+
+  <p>
+    <ol>
+      <li>
+        <p>
+          Use the derivative rules for <m>\sin(x)</m> and <m>\cos(x)</m> to compute derivatives of other trig functions.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Use trig rules in conjunction with all previous derivative rules to compute derivatives.
+        </p>
+      </li>
+    </ol>
+  </p>
+</li>
+
+<li>
+  <title>§2.7</title>
+
+  <p>
+    <ol>
+      <li>
+        <p>
+          Use the product rule and quotient rule to compute derivatives of explicit functions.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Use the product rule and quotient rule to compute derivatives of functions numerically (e.g., using information about functions provided in a table or graph).
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Use the product rule and quotient rule in conjunction with all previous derivative rules to compute derivatives.
+        </p>
+      </li>
+    </ol>
+  </p>
+</li>
+
+<li>
+  <title>§2.8</title>
+
+  <p>
+    <ol>
+      <li>
+        <p>
+          Use the chain rule to compute derivatives of explicit functions.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Use the chain rule to compute derivatives of functions numerically (e.g., using information about functions provided in a table or graph).
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Use the chain rule multiple times to compute derivatives of functions.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Use the chain rule in conjunction with all previous derivative rules to compute derivatives.
+        </p>
+      </li>
+    </ol>
+  </p>
+</li>
+
+<li>
+  <title>§2.9</title>
+
+  <p>
+    <ol>
+      <li>
+        <p>
+          Use the logarithmic rule to compute derivatives of explicit functions.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Use the logarithmic rule to compute derivatives of functions numerically (e.g., using information about functions provided in a table or graph).
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Compute values of the derivative of <m>f^{-1}(x)</m> given numerical information about an invertible function <m>f(x)</m>.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Use the logarithmic rule and inverse function rule in conjunction with all previous derivative rules to compute derivatives.
+        </p>
+      </li>
+    </ol>
+  </p>
+</li>
+
+<li>
+  <title>§3.1</title>
+
+  <p>
+    <ol>
+      <li>
+        <p>
+          Find the linear approximation centered at at point for a function.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Use the linear approximation centered at a point for a function to estimate values of the function.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Find the quadratic approximation centered at a point for a function.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Use the quadratic approximation centered at a point for a function to estimate values of the function.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Determine whether estimated values using approximations are overestimates or underestimates of the true value.
+        </p>
+      </li>
+    </ol>
+  </p>
+</li>
+
+<li>
+  <title>§3.2</title>
+
+  <p>
+    <ol>
+      <li>
+        <p>
+          Use the Stability Theorem for DTDS’s to classify an equilibrium point as stable or unstable algebraically.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Use the Stability Theorem for DTDS’s to classify an equilibrium point as stable or unstable graphically.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Explain when the Stability Theorem is inconclusive and why.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Use the derivative to determine if a solution function oscillates around an equilibrium point.
+        </p>
+      </li>
+    </ol>
+  </p>
+</li>
+
+<li>
+  <title>§3.3</title>
+
+  <p>
+    <ol>
+      <li>
+        <p>
+          Determine the equilibrium point(s) of the Logistic DTDS.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Use the Stability Theorem to classify the equilibrium points of the Logistic DTDS.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Determine the equilibrium point(s) of a modified Logistic DTDS.
+        </p>
+      </li>
+    </ol>
+  </p>
+</li>
+
+<li>
+  <title>§3.4</title>
+
+  <p>
+    <ol>
+      <li>
+        <p>
+          Identify local maximum/minimum values and global maximum/minimum values using the graph of a function.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Classify critical points as a local maximum, local minimum, or neither using the first derivative test and second derivative test.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Identify points where <m>f''(x)</m> is positive, negative, and zero using the equation of <m>f(x)</m>.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Identify inflection points of <m>f(x)</m> using the graph of <m>f(x)</m>.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Identify inflection points of <m>f(x)</m> using the equation of <m>f(x)</m>.
+        </p>
+      </li>
+    </ol>
+  </p>
+</li>
+
+<li>
+  <title>§3.5</title>
+
+  <p>
+    <ol>
+      <li>
+        <p>
+          Find the global maximum and minimum value of a function on a closed interval using derivatives.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Identify global extrema of continuous functions on an interval with one critical point.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Apply optimization in the context of modeling.
+        </p>
+      </li>
+    </ol>
+  </p>
+</li>
+
+<li>
+  <title>§3.6</title>
+
+  <p>
+    <ol>
+      <li>
+        <p>
+          Justify whether L’Hôspital’s rule can be used to evaluate a limit.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Use L’Hôspital’s rule to evaluate a limit.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Use limits to determine when one function dominates another.
+        </p>
+      </li>
+    </ol>
+  </p>
+</li>
+
+<li>
+  <title>§3.7</title>
+
+  <p>
+    <ol>
+      <li>
+        <p>
+          Determine the leading behavior of a function at infinity.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Determine the leading behavior of a function at negative infinity.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Use limits to determine horizontal asymptotes of functions.
+        </p>
+      </li>
+    </ol>
+  </p>
+</li>
+
+<li>
+  <title>§4.1</title>
+
+  <p>
+    <ol>
+      <li>
+        <p>
+          Recognize a differential equation and its type (pure-time, autonomous, neither).
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Estimate the general solution to a differential equation graphically given the graph of the differential equation.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Estimate the specific solution to a differential equation graphically given the graph of the differential equation and an initial condition.
+        </p>
+      </li>
+    </ol>
+  </p>
+</li>
+
+<li>
+  <title>§4.2</title>
+
+  <p>
+    <ol>
+      <li>
+        <p>
+          Explain the difference between an <em>antiderivative</em> of a function and the <em>indefinite integral</em> of a function.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Compute indefinite integrals for power functions, exponential functions, and trigonometric functions.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Use antiderivatives to solve initial value problems with pure-time differential equations.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Explain when the method of <m>u</m>-substitution is useful for solving indefinite integrals.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Use <m>u</m>-substitution to solve indefinite integrals when approprirate.
+        </p>
+      </li>
+    </ol>
+  </p>
+</li>
+
+<li>
+  <title>§4.3</title>
+
+  <p>
+    <ol>
+      <li>
+        <p>
+          Approximate the area under a curve using a Riemann sum.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Represent <m>R_{n}</m>, <m>L_{n}</m>, and <m>M_{n}</m> graphically.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Determine if a given Riemann sum is an overestimate or an underestimate of the actual area under a curve.
+        </p>
+      </li>
+    </ol>
+  </p>
+</li>
+
+<li>
+  <title>§4.4</title>
+
+  <p>
+    <ol>
+      <li>
+        <p>
+          Explain how limits are used to define the definite integral of a function over a domain <m>[a,b]</m>.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Explain what <m>\int_{a}^{b} f(x) dx</m> represents on the graph of <m>f(x)</m>.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Use definite integrals to find the average value of a function.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Use the graph of <m>f(x)</m> to estimate the average value of <m>f(x)</m>.
+        </p>
+      </li>
+    </ol>
+  </p>
+</li>
+
+<li>
+  <title>§4.5</title>
+
+  <p>
+    <ol>
+      <li>
+        <p>
+          State the Fundamental Theorem of Calculus.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Use the Fundamental Theorem of Calculus to compute definite integrals.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Use definite integrals and the Fundamental Theorem of Calculus to determine information about <m>f(x)</m>, given information about <m>f'(x)</m>.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Explain what a definite integral represents in the context of a real-world problem.
+        </p>
+      </li>
+    </ol>
+  </p>
+</li>
+
+<li>
+  <title>§4.6</title>
+
+  <p>
+    <ol>
+      <li>
+        <p>
+          Estimate the solution to a differential equation using Euler’s method given the equation of a differential equation and an initial condition.
+        </p>
+      </li>
+    </ol>
+  </p>
+</li>
+</dl>
+  </article>
+</pretext>
