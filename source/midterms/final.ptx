@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext>
+    <article xml:id="final">
+        <section xml:id="sec-new">
+            <title>New Material</title>
+            <introduction>
+                <p>
+                    Below you will find a practice set (with solutions) and a sample exam. 
+                </p>
+            </introduction>
+        
+            <worksheet xml:id="new-practice" margin="1in" bottom="1.25cm">
+            <title>New Material Practice Set (with solutions)</title>
+            
+
+            </worksheet>
+
+            <worksheet xml:id="final-sample" margin="1in" bottom="1.25cm">
+            <title>Sample Final</title>
+            
+
+            </worksheet>
+
+        </section>
+    </article>
+</pretext>
