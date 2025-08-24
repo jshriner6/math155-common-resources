@@ -18,84 +18,125 @@
 You should not expect problems on the midterm to look exactly like these.
 The number of problems in this review is also not indicative of the length of the midterm.
 Use them as a starting place for your review and to prompt questions.
-</p>
+            </p>
             </introduction>
-
-<ol>
-  <li>
+<page>
+  <exercise>
+    <introduction>
+ 
     <p>
       Consider the graphs of two functions, <m>f(x)</m> (red) and <m>g(x)</m> (blue).
-      <m>f(x)</m>:
-      <image source="red.png">
-      </image>
-      <m>g(x)</m>:
-      <image source="blue.png">
-      </image>
+      
+      <sidebyside>
+
+            <figure>
+              <caption>The graph of <m>f(x)</m></caption>
+            
+          <image source="red.png" width="20%">
+            <shortdescription>Graph of the line passing through points <m>(0,0)</m> and <m>(1,2)</m>.</shortdescription>
+          </image>
+            </figure>
+          <figure>
+            <caption>The graph of <m>g(x)</m></caption>
+          <image source="blue.png"  width="20%">
+            <shortdescription>Graph of the line passing through points <m>(0,-3)</m> and <m>(-3,0)</m>.</shortdescription>
+          </image>
+        </figure>
+      </sidebyside>
     </p>
+    </introduction>
+    
+  
+  <task workspace="">
+    <statement>
+     <p>
+     
+      Determine all that apply to the function <m>f(x)</m>. Do the same for <m>g(x)</m>: proportional, linear, exponential, invertible
+  
+     </p>
+    </statement>
 
-    <p>
-      <ol>
-        <li>
-          <p>
-            Circle all that apply to the function <m>f(x)</m>
-          </p>
+          <solution>
+            <p>
+      
+            <m>f(x)</m> is proportional, linear, invertible. <m>g(x)</m> is linear, invertible.
+                
+            </p>
+  
+          </solution>
+        </task>
 
-          <p>
-            proportional  linear  exponential  invertible
-          </p>
-        </li>
+        <task>
+          <statement>
+            <p>
+              Find equations for <m>f(x)</m> and <m>g(x)</m>, <m>f^{-1}(x)</m>, and <m>g^{-1}(x)</m>.
+            </p>
+          </statement>
+          <solution>
+            <p>
+              <m>f(x)=2x</m>, <m>g(x)=-x-3</m>, <m>f^{-1}(x)= \frac{1}{2}x</m>, <m>g^{-1}(x)= -x-3</m>
+            </p>
+          </solution>
+        </task>
 
-        <li>
-          <p>
-            Circle all that apply to the function <m>g(x)</m>
-          </p>
-
-          <p>
-            proportional  linear  exponential  invertible
-          </p>
-        </li>
-
-        <li>
-          <p>
-            Find equations for <m>f(x)</m> and <m>g(x)</m>.
-            Find equations for <m>f^{-1}(x)</m> and <m>g^{-1}(x).</m>
-          </p>
-        </li>
-
-        <li>
-          <p>
-            Compute <m>f^{-1}(-2)</m>, <m>f(g(-3))</m>, <m>f(f(-1))</m>, <m>(f+g)(-1)</m>, and <m>(f\cdot g)(-1)</m> using the graphs only.
+        <task>
+          <statement>
+            <p>
+               Compute <m>f^{-1}(-2)</m>, <m>f(g(-3))</m>, <m>f(f(-1))</m>, <m>(f+g)(-1)</m>, and <m>(f\cdot g)(-1)</m> using the graphs only.
             Then compute them using your equations from the previous part.
-          </p>
-        </li>
+            </p>
+          </statement>
+          <solution>
+            <p>
+              <m>f^{-1}(-2)=-1</m>, <m>f(g(-3))=0</m>, <m>f(f(-1))=-4</m>, <m>(f+g)(-1)=-4</m>, and <m>(f\cdot g)(-1)=4</m>
+            </p>
+          </solution>
+        </task>
 
-        <li>
+        <task>
+          <statement>
           <p>
-            The function <m>f(g(x))</m> is linear.
-            What is the slope? What is the <m>y</m>-intercept?
+            The functions <m>f(g(x))</m> and <m>g(f(x))</m> are linear.
+            What are their slopes? What are their <m>y</m>-intercepts?
           </p>
-        </li>
-
-        <li>
-          <p>
-            The function <m>g(f(x))</m> is linear.
-            What is the slope? What is the <m>y</m>-intercept?
+          </statement>
+          <solution>
+            <p>
+              <m>f(g(x))= -2x-6</m>, so the slope is <m>-2</m> and the y-intercept is <m>(0,-6)</m>.
+            </p>
+            <p>
+            <m>g(f(x))= -2x-3</m>, so the slope is <m>-2</m> and the y-intercept is <m>(0,-3)</m>.
           </p>
-        </li>
-      </ol>
-    </p>
-  </li>
+          </solution>
+        </task>
+      </exercise>
+    </page>
+<page>
+  
 
-  <li>
+  <exercise>
+    <statement>
     <p>
       On an alien planet they use goops and snarks to measure volume.
       One goop is equal <m>\frac{9}{7}</m> times a snark.
       Pheobe the dog has a volume of 75 snarks.
       What is her volume in goops?
     </p>
-  </li>
+  </statement>
+  <solution>
+    <p>
+      The relevant conversion factor is <m>\frac{9/7 \text{ snark}}{1 \text{ goop}}</m>, or equivalently 
+      <m>\frac{9 \text{ snark}}{7 \text{ goop}}</m>. Then
+      <me>
+        75 \text{ snark} \cdot \frac{7 \text{ goop}}{9 \text{ snark}}  = \frac{175}{3} \text{ goop}
+      </me>.
+      
+    </p>
+  </solution>
+  </exercise>
 
-  <li>
+  <exercise>
+    <statement>
     <p>
       The functions below are all transformations of “parent” functions.
       First determine the “parent” function and sketch its graph.
@@ -132,14 +173,48 @@ Use them as a starting place for your review and to prompt questions.
         </li>
       </ol>
     </p>
-  </li>
+  </statement>
+  <solution>
+    <p>
+      <ol>
+        <li>
+          <p>
+            The parent function is <m>e^x</m>. 
+          </p>
+        </li>
+        <li>
+          <p>
+            The parent function is <m>2^x</m>. 
+          </p>
+        </li>
+        <li>
+          <p>
+            The parent function is <m>x^2</m>. 
+          </p>
+        </li>
+        <li>
+          <p>
+            The parent function is <m>\sqrt{x}</m>. 
+          </p>
+        </li>
+        <li>
+          <p>
+            The parent function is <m>\sin(x)</m>. 
+          </p>
+        </li>
+      </ol>
+    </p>
+    <p>See the <url href="https://www.desmos.com/calculator/zpx4uvnqdm">graphs of the transformations using Desmos</url>.</p>
+  </solution>
+</exercise>
 
-  <li>
+  <exercise>
+    <statement>
     <p>
       Consider the updating function
       <me>
-        p_{t+1}=p_{t} + 0.5 ,
-      </me>
+        p_{t+1}=p_{t} + 0.5 
+      </me>,
       where <m>p_{t}</m> is the population of fish at time <m>t</m> and the population is measured in thousands of fish.
       <ol>
         <li>
@@ -157,17 +232,35 @@ Use them as a starting place for your review and to prompt questions.
         </li>
       </ol>
     </p>
-  </li>
+  </statement>
+  <solution>
+    <p>
+      <ol>
+        <li>
+          <p>
+            <m>f(x)= x + 0.5</m>. See the <url href="https://www.desmos.com/calculator/unm3klsfbv">updating function graph in Desmos</url>.
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>p_0=3</m>, <m>p_1=3.5</m>, <m>p_2= 4</m>, <m>p_3=4.5</m>. The solution function is <m>p_t= 0.5t + 3</m>.
+          </p>
+        </li>
+      </ol>
+    </p>
+  </solution>
+</exercise>
 
-  <li>
+  <exercise>
+    <statement>
     <p>
       Consider the updating function
     </p>
 
     <p>
       <me>
-        m_{t+1}=3m_{t}-2.
-      </me>
+        m_{t+1}=3m_{t}-2
+      </me>.
     </p>
 
     <p>
@@ -180,6 +273,7 @@ Use them as a starting place for your review and to prompt questions.
 
           <p>
             <image source="grid.png">
+              <shortdescription>Blank grid for graphing.</shortdescription>
             </image>
           </p>
         </li>
@@ -190,6 +284,7 @@ Use them as a starting place for your review and to prompt questions.
             Identify an initial value for which the solution function decreases.
             In both cases, justify your answer using cob-webbing.
           </p>
+        
         </li>
 
         <li>
@@ -200,9 +295,21 @@ Use them as a starting place for your review and to prompt questions.
         </li>
       </ol>
     </p>
-  </li>
+    </statement>
+    <solution>
+      <p>
+        The <url href="https://www.desmos.com/calculator/4rn402rio3">updating function is graphed in Desmos</url>. You can
+        also choose different initial values to see how cobwebbing behaves. You should be able to see and explain that 
+        the solution function increases for initial values greater than <m>1</m>, and decreases for initial values less 
+        than <m>1</m>. The equilibrium value is <m>1</m>, and is unstable.
+      </p>
+    </solution>
+  </exercise>
+</page>
+<page>
 
-  <li>
+  <exercise>
+    <statement>
     <p>
       Consider a DTDS which models population after <m>t</m> years by the updating function and initial value
       <me>
@@ -241,31 +348,26 @@ Use them as a starting place for your review and to prompt questions.
         </li>
       </ol>
     </p>
-  </li>
+    </statement>
+    <solution>
+      <p>
+        
+      </p>
+    </solution>
+  </exercise>
 
-  <li>
+  <exercise>
+    <statement>
     <p>
       Find equations for each function below without using a phase shift.
       <image source="graphs.png">
       </image>
-
-      <ol>
-        <li>
-          <p>
-            Equation:
-          </p>
-        </li>
-
-        <li>
-          <p>
-            Equation:
-          </p>
-        </li>
-      </ol>
     </p>
-  </li>
+    </statement>
+  </exercise>
 
-  <li>
+  <exercise>
+    <statement>
     <p>
       A person breathes in and out <m>0.75</m>L of air each breath.
       Their lungs have <m>3</m> L of air when full.
@@ -292,9 +394,15 @@ Use them as a starting place for your review and to prompt questions.
         </li>
       </ol>
     </p>
-  </li>
+  </statement>
+</exercise>
+  
+</page>
+<page>
+  
 
-  <li>
+  <exercise>
+    <statement>
     <p>
       Recognize each expression as a weighted average.
       Identify the weights, and fill in the blanks to make a true statement.
@@ -320,9 +428,11 @@ Use them as a starting place for your review and to prompt questions.
         </li>
       </ol>
     </p>
-  </li>
+  </statement>
+</exercise>
 
-  <li>
+  <exercise>
+    <statement>
     <p>
       Consider the updating function
       <me>
@@ -344,11 +454,16 @@ Use them as a starting place for your review and to prompt questions.
       </ol>
     </p>
 
+  </statement>
+  <solution>
     <p>
+      
     </p>
-  </li>
+  </solution>
+</exercise>
 
-  <li>
+  <exercise>
+    <statement>
     <p>
       For each set of criteria, sketch the graph of a function <m>f(x)</m> that meets all criteria.
     </p>
@@ -456,9 +571,16 @@ Use them as a starting place for your review and to prompt questions.
         </p>
       </li>
     </ol>
-  </li>
+    </statement>
+    <solution>
+      <p>
+        
+      </p>
+    </solution>
+  </exercise>
 
-  <li>
+  <exercise>
+    <statement>
     <p>
       Examples of the following descriptions do not exist.
       Explain why.
@@ -477,8 +599,16 @@ Use them as a starting place for your review and to prompt questions.
         </li>
       </ol>
     </p>
-  </li>
-</ol>
+    </statement>
+    <solution>
+      <p>
+        
+      </p>
+    </solution>
+  </exercise>
+
+
+</page>
 
 
             </worksheet>
