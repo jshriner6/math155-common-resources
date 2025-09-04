@@ -17,7 +17,8 @@
             These exercises are intended to help you think more deeply about the important concepts on Midterm 1.
 You should not expect problems on the midterm to look exactly like these.
 The number of problems in this review is also not indicative of the length of the midterm.
-Use them as a starting place for your review and to prompt questions.
+Use them as a starting place for your review and to prompt questions. Some solutions here just provide answers. You should
+be able to justify these answers on an exam with relevant work shown.
             </p>
             </introduction>
 <page>
@@ -33,13 +34,13 @@ Use them as a starting place for your review and to prompt questions.
               <caption>The graph of <m>f(x)</m></caption>
             
           <image source="red.png" width="20%">
-            <shortdescription>Graph of the line passing through points <m>(0,0)</m> and <m>(1,2)</m>.</shortdescription>
+            <shortdescription>Graph of the line passing through points (0,0) and (1,2).</shortdescription>
           </image>
             </figure>
           <figure>
             <caption>The graph of <m>g(x)</m></caption>
           <image source="blue.png"  width="20%">
-            <shortdescription>Graph of the line passing through points <m>(0,-3)</m> and <m>(-3,0)</m>.</shortdescription>
+            <shortdescription>Graph of the line passing through points (0,-3) and (-3,0).</shortdescription>
           </image>
         </figure>
       </sidebyside>
@@ -351,7 +352,42 @@ Use them as a starting place for your review and to prompt questions.
     </statement>
     <solution>
       <p>
-        
+        <ol>
+          <li>
+            <p>
+              <m>b_t = 150 \cdot (0.7)^t</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>b_t = 150 \cdot e^{\ln(0.7)t}</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>t = \frac{\ln(0.5)}{\ln(0.7)}</m> years
+            </p>
+            <p>
+              Be sure you can show your work to get the above answer!
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>t = \frac{\ln(1/3)}{\ln(0.7)}</m> years
+            </p>
+            <p>
+              Be sure you can show your work to get the above answer!
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\dfrac{AROC_{[1,2]}}{AROC_{[0,1]}}= 0.7</m>
+            </p>
+            <p>
+              Be sure you can explain why!
+            </p>
+          </li>
+        </ol>
       </p>
     </solution>
   </exercise>
@@ -361,9 +397,33 @@ Use them as a starting place for your review and to prompt questions.
     <p>
       Find equations for each function below without using a phase shift.
       <image source="graphs.png">
+        <shortdescription>Two periodic functions.</shortdescription>
+        <description>
+          <p>
+          On the left the graph of a periodic function with average y value 1, maximum y value 3, and
+          minimum y value -1. It passes through (0,1). On the right the graph of a periodic function with average y value -2, maximum y value 1, and
+          minimum y value -5. It passes through (0,-5).
+          </p>
+        </description>
       </image>
     </p>
     </statement>
+    <solution>
+      <p>
+        <ol>
+          <li>
+            <p>
+              <m>y = 2\sin(2x) + 1</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>y = -3\cos(4x) -2</m>
+            </p>
+          </li>
+        </ol>
+      </p>
+    </solution>
   </exercise>
 
   <exercise>
@@ -395,6 +455,27 @@ Use them as a starting place for your review and to prompt questions.
       </ol>
     </p>
   </statement>
+  <solution>
+    <p>
+      <ol>
+        <li>
+          <p>
+            <m>s_{t+1} = 0.75s_t + 0.5</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>s^* = 2</m>, which is stable
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>s_t = -(0.75)^t +  2</m>
+          </p>
+        </li>
+      </ol>
+    </p>
+  </solution>
 </exercise>
   
 </page>
@@ -413,7 +494,7 @@ Use them as a starting place for your review and to prompt questions.
           </p>
 
           <p>
-            The weight <em> </em> makes the number <em> </em> the “most important” in this expression.
+            The weight <fillin characters="5" /> makes the number <fillin characters="5" /> the “most important” in this expression.
           </p>
         </li>
 
@@ -423,12 +504,28 @@ Use them as a starting place for your review and to prompt questions.
           </p>
 
           <p>
-            If the weight <em> </em> is large, then the number <em> </em> is the “least important” in this expression.
+            If the weight <fillin characters="5" /> is large, then the number <fillin characters="5" /> is the “least important” in this expression.
           </p>
         </li>
       </ol>
     </p>
   </statement>
+  <solution>
+    <p>
+      <ol>
+        <li>
+          <p>
+            <m>0.6, 10</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>s, 0.7</m> OR <m>(1-s), 0.5</m>
+          </p>
+        </li>
+      </ol>
+    </p>
+  </solution>
 </exercise>
 
   <exercise>
@@ -457,7 +554,104 @@ Use them as a starting place for your review and to prompt questions.
   </statement>
   <solution>
     <p>
-      
+      <ol>
+        <li>
+          <p>
+            <m>x^* = 0</m>, <m>x^*=8</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            <sidebyside>
+                <tabular>
+                  <row header="yes" bottom="major">
+                    <cell><m>t</m></cell>
+                    <cell><m>x_t</m></cell>
+                  </row>
+                  <row>
+                    <cell><m>0</m></cell>
+                    <cell><m>0.5</m></cell>
+                  </row>
+                  <row>
+                    <cell><m>1</m></cell>
+                    <cell><m>3</m></cell>
+                  </row>
+                  <row>
+                    <cell><m>2</m></cell>
+                    <cell><m>6.75</m></cell>
+                  </row>
+                  <row>
+                    <cell><m>3</m></cell>
+                    <cell><m>7.84</m></cell>
+                  </row>
+                </tabular>
+
+                <tabular>
+                  <row header="yes" bottom="major">
+                    <cell><m>t</m></cell>
+                    <cell><m>x_t</m></cell>
+                  </row>
+                  <row>
+                    <cell><m>0</m></cell>
+                    <cell><m>-0.01</m></cell>
+                  </row>
+                  <row>
+                    <cell><m>1</m></cell>
+                    <cell><m>-0.09</m></cell>
+                  </row>
+                  <row>
+                    <cell><m>2</m></cell>
+                    <cell><m>-0.89</m></cell>
+                  </row>
+                </tabular>
+            </sidebyside>
+            The tables suggest that <m>x^*=0</m> is unstable.
+          </p>
+
+          <p>
+            <sidebyside>
+                <tabular>
+                  <row header="yes" bottom="major">
+                    <cell><m>t</m></cell>
+                    <cell><m>x_t</m></cell>
+                  </row>
+                  <row>
+                    <cell><m>0</m></cell>
+                    <cell><m>7.5</m></cell>
+                  </row>
+                  <row>
+                    <cell><m>1</m></cell>
+                    <cell><m>7.94</m></cell>
+                  </row>
+                  <row>
+                    <cell><m>2</m></cell>
+                    <cell><m>7.993</m></cell>
+                  </row>
+                </tabular>
+
+                <tabular>
+                  <row header="yes" bottom="major">
+                    <cell><m>t</m></cell>
+                    <cell><m>x_t</m></cell>
+                  </row>
+                  <row>
+                    <cell><m>0</m></cell>
+                    <cell><m>8.5</m></cell>
+                  </row>
+                  <row>
+                    <cell><m>1</m></cell>
+                    <cell><m>8.05</m></cell>
+                  </row>
+                  <row>
+                    <cell><m>2</m></cell>
+                    <cell><m>8.005</m></cell>
+                  </row>
+                </tabular>
+            </sidebyside>
+            The tables suggest that <m>x^*=8</m> is stable.
+          </p>
+        </li>
+      </ol>
     </p>
   </solution>
 </exercise>
@@ -574,7 +768,8 @@ Use them as a starting place for your review and to prompt questions.
     </statement>
     <solution>
       <p>
-        
+        Various answers are possible. Please see an instructor if you would like to check your work or discuss possible 
+        solutions.
       </p>
     </solution>
   </exercise>
@@ -602,7 +797,25 @@ Use them as a starting place for your review and to prompt questions.
     </statement>
     <solution>
       <p>
-        
+        <ol>
+          <li>
+            <p>
+              <m>\cos(\theta)=0</m> only for angles <m>\theta</m> that correspond to points on the unit circle that satisfy
+              <m>x=0</m>, namely <m>(0,1)</m> and <m>(0,-1)</m>. <m>\tan(\theta)</m> is the slope of the secant line connecting
+              <m>(0,0)</m> to these points, which is undefined since the lines are vertical.
+            </p>
+          </li>
+          <li>
+            <p>
+              If <m>g(x) = b^x</m> then 
+              <me>
+                \dfrac{AROC_{[1,2]}}{AROC_{[0,1]}}= b
+              </me>.
+              See <url href="https://jshriner6.github.io/bio-calc1/sec-1-5.html#f-1-5-aroc">Fact 1.5.4 </url>.
+              
+            </p>
+          </li>
+        </ol>
       </p>
     </solution>
   </exercise>
@@ -616,6 +829,468 @@ Use them as a starting place for your review and to prompt questions.
             <worksheet xml:id="midterm1-sample" margin="1in" bottom="1.25cm">
             <title>Sample Midterm 1</title>
             
+   <exercise>
+    
+  
+        <p>
+            Use the graph of the function <m>f(x)</m> and the table of the invertible function <m>k(x)</m> to answer each question below.
+            Write “UND” if a value is undefined.
+        </p>
+        <sidebyside>
+        <image source="graph1.png">
+          <shortdescription>Graph of f which contains open circles at (-4,-3) and (-2,1), and 
+            a closed circle at (-4,2). The graph also passes through (1,4), (4,-3), (-3,-2), and (3,-4).
+          </shortdescription>
+        </image>
+
+      
+        <tabular>
+            <col halign="center" right="minor"> </col> <col halign="center"> </col>
+            <row header="yes" bottom="major">
+                <cell> <m>x</m> </cell>
+                <cell> <m>k(x)</m> </cell>
+            </row>
+
+            <row>
+                <cell> </cell>
+            </row>
+
+            <row>
+                <cell>-4</cell>
+                <cell>-2</cell>
+            </row>
+
+            <row>
+                <cell>-1</cell>
+                <cell>1</cell>
+            </row>
+
+            <row>
+                <cell>1</cell>
+                <cell>3</cell>
+            </row>
+
+            <row>
+                <cell>3</cell>
+                <cell>4</cell>
+            </row>
+        </tabular>
+        </sidebyside>
+<ol>
+    <li>
+        <p>
+            <m>f(-4) =</m>
+        </p>
+    </li>
+
+    <li>
+        <p>
+            <m>f(-2) =</m>
+        </p>
+    </li>
+
+    <li>
+        <p>
+            <m>k^{-1}(-2)=</m>
+        </p>
+    </li>
+
+    <li>
+        <p>
+            <m>(f+k)(1)=</m>
+        </p>
+    </li>
+
+    <li>
+        <p>
+            <m>f(f(4))=</m>
+        </p>
+    </li>
+
+    <li>
+        <p>
+            <m>k(f(3))=</m>
+        </p>
+    </li>
+
+    <li>
+        <p>
+            <m>k(k^{-1}(1))=</m>
+        </p>
+
+        <p>
+        </p>
+    </li>
+
+    <li>
+        <p>
+            Rank the following from smallest to largest.
+            Enter only the numerals i, ii, iii, and iv in the blanks provided.
+            <dl>
+            <li>
+                <title>i.</title>
+
+                <p>
+                    <m>AROC_{[-6,2]}</m> for <m>f(x)</m>
+                </p>
+            </li>
+
+            <li>
+                <title>ii.</title>
+
+                <p>
+                    <m>AROC_{[-2.5,3]}</m> for <m>f(x)</m>
+                </p>
+            </li>
+
+            <li>
+                <title>iii.</title>
+
+                <p>
+                    <m>\dfrac{f(7) - f(-2.5)}{7- (-2.5)}</m>
+                </p>
+            </li>
+
+            <li>
+                <title>iv.</title>
+
+                <p>
+                    <m>\dfrac{f(0) - f(-4.5)}{0-(-4.5)}</m>
+                </p>
+            </li>
+            </dl>
+        </p>
+
+        <p>
+            <me>
+                \underset{\text{(most negative)}}{ \underline{\hspace{1.5cm}}}&#x3C; \underline{\hspace{1.5cm}}&#x3C;\underline{\hspace{1.5cm}}&#x3C;\underset{\text{(most positive)}}{ \underline{\hspace{1.5cm}}}
+            </me>
+        </p>
+    </li>
+</ol>
+     </exercise>
+
+     <exercise>
+    
+        <p>
+        Consider the updating function <m>p_{t+1}= 0.5p_{t} +4</m>, which measures population after <m>t</m> years.
+            <ol>
+                <li>
+                    <p>
+                        Sketch the graph of the updating function, correctly labeling all axes.
+                        <image source="blank.png">
+                          <shortdescription>Blank grid for sketching.</shortdescription>
+                        </image>
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        If <m>p_{0} =20</m>, complete the following table to determine the value of <m>p_{3}</m>.
+                       
+                            <tabular>
+    <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center"> </col>
+    <row header="yes" bottom="major">
+        <cell> <m>t</m> </cell>
+        <cell><m>p_{t}</m> </cell>
+        <cell><m>p_{t+1}</m> </cell>
+    </row>
+
+    <row>
+        <cell>0</cell>
+        <cell></cell>
+        <cell></cell>
+    </row>
+
+
+    <row>
+        <cell>1</cell>
+        <cell></cell>
+        <cell></cell>
+    </row>
+
+    
+
+    <row>
+        <cell>2</cell>
+        <cell></cell>
+        <cell></cell>
+    </row>
+</tabular>
+                
+                        <m>p_{3} =</m> <fillin characters="5" />
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        Find the equilibrium point of this system algebraically.
+                        You must show the equation you are using to find the equilibrium point, as well as solve the equation.
+                    </p>
+                </li>
+            </ol>
+        </p>
+
+        <p>
+        </p>
+    </exercise>
+
+    <exercise>
+        <p>
+          Below is the graph of an updating function for a DTDS.
+            <image source="cobweb.png">
+              <shortdescription>A dotted diagonal line for y equals x. The graph of the updating function
+                increases from left to right, intersecting the diagonal line at about (1.5,1.5) and (11.5,11.5).
+              </shortdescription>
+            </image>
+
+            <ol>
+                <li>
+                    <p>
+                        If <m>g_{0} = 4</m>, the solution function is  <em>You must illustrate your reasoning on the graph using cobwebbing to receive full credit.</em>
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        If <m>g_{0} = 14</m>, the solution function is  <em>You must illustrate your reasoning on the graph using cobwebbing to receive full credit.</em>
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        Circle all equilibrium points on the graph, and clearly identify them as stable or unstable.
+                    </p>
+                </li>
+            </ol>
+        </p>
+
+        <p>
+        </p>
+    </exercise>
+
+    <exercise>
+      
+    
+        <p>
+          The mass of an object is changing according to the model
+            <me>
+                M(t) = 10e^{0.25t},
+            </me>
+            where <m>t</m> is measured in days.
+            <ol>
+                <li>
+                    <p>
+                        Is the mass increasing or decreasing? Clearly explain how you know just by looking at the equation for <m>M(t)</m>.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        Find the doubling-time or half-life for the object (whichever is appropriate based on your previous answer).
+                        You must show the equation you are using to find the doubling-time/half-life, as well as solve the equation.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        Determine the value of <m>\dfrac{AROC_{[2,3]}}{AROC_{[1,2]}}</m>.
+                        <em>Note that it is possible to answer this question without making any computation.</em>
+                    </p>
+                </li>
+            </ol>
+        </p>
+
+
+    </exercise>
+
+    <exercise>
+      
+        <p>
+            <ol>
+                <li>
+                  <image source="trig.png">
+                          <shortdescription>Graph of
+                            a periodic function whose average y value is -2, minimum y value is -6, and maximum
+                            y value is 2. It passes through (0,2).
+                          </shortdescription>
+                        </image>
+                    <p>
+          
+
+                        <ol>
+                            <li>
+                                <p>
+                                    Which function would you use to model <m>f(x)</m> <em>without needing to use a phase shift</em>?
+                                </p>
+                                <dl>
+                                <li>
+                                    <title> </title>
+
+                                    <p>
+                                        <m>\sin(x)</m>
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <title> </title>
+
+                                    <p>
+                                        <m>\cos(x)</m>
+                                    </p>
+                                </li>
+                                </dl>
+
+                                <p>
+                                </p>
+                            </li>
+
+                            <li>
+                                <p>
+                                    What is the amplitude, average, and period of <m>f(x)</m>?
+                                </p>
+
+                                <p>
+                                    Amplitude:<fillin characters="5" />, Average:<fillin characters="5" />, Period:<fillin characters="5" />
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        Let <m>k(\theta)= 2\sin(\frac{\pi}{3}\theta) +8</m>.
+                        What is the amplitude, average, and period of <m>k(\theta)</m>?
+                    </p>
+
+                    <p>
+                        Amplitude:<fillin characters="5" />, Average:<fillin characters="5" />, Period:<fillin characters="5" />
+                    </p>
+                </li>
+            </ol>
+        </p>
+
+    </exercise>
+
+    <exercise>
+      
+   
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        Circle all expressions which could represent a weighted average of <m>x</m> and <m>y</m>.
+                    </p>
+
+                    <ul>
+                        <li>
+                            <p>
+                                <m>0.1x + 0.8y</m>
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                <m>0.4x + 0.6y</m>
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                <m>px +(1-p)y</m>, where <m>0 \leq p \leq 1</m>
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                <m>30x + 70y</m>
+                            </p>
+                        </li>
+                    </ul>
+
+                    <p>
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        Use the picture to complete the following statements using "positive", "negative", or "zero".
+                    </p>
+
+                    <image source="trig1.png" width="50%">
+                      <shortdescription>An angle r in the unit circle in quadrant 4.</shortdescription>
+                    </image>
+
+                    <ol>
+                        <li>
+                            <p>
+                                <m>\sin(r)</m> is <fillin characters="10" />
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                <m>\cos(r)</m> is <fillin characters="10" />
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                <m>\tan(r)</m> is <fillin characters="10" />
+                            </p>
+                        </li>
+                    </ol>
+
+                    <p>
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        Let <m>\rho = 20</m> grams/meter and <m>d=3</m> meters.
+                    </p>
+
+                    <p>
+                        <ol>
+                            <li>
+                                <p>
+                                    The units of <m>\rho \cdot d</m> are <fillin characters="5" />
+                                </p>
+                            </li>
+
+                            <li>
+                                <p>
+                                    The units of <m>\dfrac{\rho}{d}</m> are <fillin characters="5" />
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        Write the solution function using correct notation associated with each updating function and initial value below.
+                        <ol>
+                            <li>
+                                <p>
+                                    <m>d_{t+1}= 0.7d_{t}</m>, <m>d_{0} = 3</m>
+                                </p>
+                            </li>
+
+                            <li>
+                                <p>
+                                    <m>\ell_{t+1}= \ell_{t} +4</m>, <m>\ell_{0} = 0</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </li>
+            </ol>
+        </p>
+   </exercise>
+
+
 
             </worksheet>
         </section>
