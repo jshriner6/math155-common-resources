@@ -9,8 +9,528 @@
                     Below you will find a practice set (with solutions) and a sample exam. 
                 </p>
             </introduction>
+
+                        <worksheet xml:id="midterm1-practice" margin="1in" bottom="1.25cm">
+            <title>Midterm 1 Practice Set</title>
+            <introduction>
+                <p>
+            These exercises are intended to help you think more deeply about the important concepts on Midterm 1.
+You should not expect problems on the midterm to look exactly like these.
+The number of problems in this review is also not indicative of the length of the midterm.
+Use them as a starting place for your review and to prompt questions. Some solutions here just provide answers. You should
+be able to justify these answers on an exam with relevant work shown.
+            </p>
+            </introduction>
+<page>
+  <exercise>
+    <introduction>
+ 
+    <p>
+      Consider the graphs of two functions, <m>f(x)</m> (red) and <m>g(x)</m> (blue).
+      
+      <sidebyside>
+
+            <figure>
+              <caption>The graph of <m>f(x)</m></caption>
+            
+          <image source="red.png" width="20%">
+            <shortdescription>Graph of the line passing through points (0,0) and (1,2).</shortdescription>
+          </image>
+            </figure>
+          <figure>
+            <caption>The graph of <m>g(x)</m></caption>
+          <image source="blue.png"  width="20%">
+            <shortdescription>Graph of the line passing through points (0,-3) and (-3,0).</shortdescription>
+          </image>
+        </figure>
+      </sidebyside>
+    </p>
+    </introduction>
+    
+  
+  <task workspace="">
+    <statement>
+     <p>
+     
+      Determine all that apply to the function <m>f(x)</m>. Do the same for <m>g(x)</m>: proportional, linear, exponential, invertible
+  
+     </p>
+    </statement>
+
+          
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              Find equations for <m>f(x)</m> and <m>g(x)</m>, <m>f^{-1}(x)</m>, and <m>g^{-1}(x)</m>.
+            </p>
+          </statement>
+         
+        </task>
+
+        <task>
+          <statement>
+            <p>
+               Compute <m>f^{-1}(-2)</m>, <m>f(g(-3))</m>, <m>f(f(-1))</m>, <m>(f+g)(-1)</m>, and <m>(f\cdot g)(-1)</m> using the graphs only.
+            Then compute them using your equations from the previous part.
+            </p>
+          </statement>
+          
+        </task>
+
+        <task>
+          <statement>
+          <p>
+            The functions <m>f(g(x))</m> and <m>g(f(x))</m> are linear.
+            What are their slopes? What are their <m>y</m>-intercepts?
+          </p>
+          </statement>
+          
+        </task>
+      </exercise>
+    </page>
+<page>
+  
+
+  <exercise>
+    <statement>
+    <p>
+      On an alien planet they use goops and snarks to measure volume.
+      One goop is equal <m>\frac{9}{7}</m> times a snark.
+      Pheobe the dog has a volume of 75 snarks.
+      What is her volume in goops?
+    </p>
+  </statement>
+  
+  </exercise>
+
+  <exercise>
+    <statement>
+    <p>
+      The functions below are all transformations of “parent” functions.
+      First determine the “parent” function and sketch its graph.
+      Then sketch the graph of the transformed function.
+      <ol>
+        <li>
+          <p>
+            <m>f(x) = e^{x-2}</m>
+          </p>
+        </li>
+
+        <li>
+          <p>
+            <m>\ell(x) = 2^{-x}</m>
+          </p>
+        </li>
+
+        <li>
+          <p>
+            <m>g(x) = -x^{2} -1</m>
+          </p>
+        </li>
+
+        <li>
+          <p>
+            <m>k(x) = 0.5\sqrt{x+2}</m>
+          </p>
+        </li>
+
+        <li>
+          <p>
+            <m>j(x) = \sin(-x)</m>
+          </p>
+        </li>
+      </ol>
+    </p>
+  </statement>
+  
+</exercise>
+
+  <exercise>
+    <statement>
+    <p>
+      Consider the updating function
+      <me>
+        p_{t+1}=p_{t} + 0.5 
+      </me>,
+      where <m>p_{t}</m> is the population of fish at time <m>t</m> and the population is measured in thousands of fish.
+      <ol>
+        <li>
+          <p>
+            Identify the updating function rule, and graph the updating function.
+            Label all axes.
+          </p>
+        </li>
+
+        <li>
+          <p>
+            Suppose <m>p_{0}=3.</m> Use the updating function to find <m>p_{3}</m>.
+            Then find the solution function that gives the number of fish (measured in thousands) as a function of time.
+          </p>
+        </li>
+      </ol>
+    </p>
+  </statement>
+  
+</exercise>
+</page>
+
+<page>
+
+  <exercise>
+    <statement>
+    <p>
+      Consider the updating function
+    </p>
+
+    <p>
+      <me>
+        m_{t+1}=3m_{t}-2
+      </me>.
+    </p>
+
+    <p>
+      <ol>
+        <li>
+          <p>
+            Graph the updating function on the axis below.
+            Label all axes.
+          </p>
+
+          <p>
+            <image source="grid.png">
+              <shortdescription>Blank grid for graphing.</shortdescription>
+            </image>
+          </p>
+        </li>
+
+        <li>
+          <p>
+            Identify an initial value for which the solution function increases.
+            Identify an initial value for which the solution function decreases.
+            In both cases, justify your answer using cob-webbing.
+          </p>
         
-            <worksheet xml:id="midterm1-practice" margin="1in" bottom="1.25cm">
+        </li>
+
+        <li>
+          <p>
+            Circle all equilibrium points, and determine if each is stable or unstable.
+            Use cob-webbing to justify your answer.
+          </p>
+        </li>
+      </ol>
+    </p>
+    </statement>
+    
+  </exercise>
+</page>
+<page>
+
+  <exercise>
+    <statement>
+    <p>
+      Consider a DTDS which models population after <m>t</m> years by the updating function and initial value
+      <me>
+        b_{t+1}=0.7b_{t}, b_{0}=150.
+      </me>
+
+      <ol>
+        <li>
+          <p>
+            Find the equation of the solution function for this system.
+          </p>
+        </li>
+
+        <li>
+          <p>
+            Express the solution function in the form <m>b_{t} = b_{0}e^{kt}</m>.
+          </p>
+        </li>
+
+        <li>
+          <p>
+            What is the half-life of the population?
+          </p>
+        </li>
+
+        <li>
+          <p>
+            When will the population reach <m>50</m>?
+          </p>
+        </li>
+
+        <li>
+          <p>
+            For the solution function, determine the value of <m>\dfrac{AROC_{[1,2]}}{AROC_{[0,1]}}</m>.
+          </p>
+        </li>
+      </ol>
+    </p>
+    </statement>
+    
+  </exercise>
+
+  <exercise>
+    <statement>
+    <p>
+      Find equations for each function below without using a phase shift.
+      <image source="graphs.png">
+        <shortdescription>Two periodic functions.</shortdescription>
+        <description>
+          <p>
+          On the left the graph of a periodic function with average y value 1, maximum y value 3, and
+          minimum y value -1. It passes through (0,1). On the right the graph of a periodic function with average y value -2, maximum y value 1, and
+          minimum y value -5. It passes through (0,-5).
+          </p>
+        </description>
+      </image>
+    </p>
+    </statement>
+   
+  </exercise>
+
+  <exercise>
+    <statement>
+    <p>
+      A person breathes in and out <m>0.75</m>L of air each breath.
+      Their lungs have <m>3</m> L of air when full.
+      Let <m>s_{t}</m> denote the concentration of a certain chemical in the lungs after taking <m>t</m> breaths.
+      The outside concentration of the chemical being measured is <m>2</m> mmol/L.
+      <ol>
+        <li>
+          <p>
+            Write an updating function for this DTDS.
+          </p>
+        </li>
+
+        <li>
+          <p>
+            Find the equilibrium point of this DTDS.
+            Is it stable or unstable?
+          </p>
+        </li>
+
+        <li>
+          <p>
+            If <m>s_{0} = 1</m>, find the solution function for this DTDS.
+          </p>
+        </li>
+      </ol>
+    </p>
+  </statement>
+  
+</exercise>
+  
+</page>
+<page>
+  
+
+  <exercise>
+    <statement>
+    <p>
+      Recognize each expression as a weighted average.
+      Identify the weights, and fill in the blanks to make a true statement.
+      <ol>
+        <li>
+          <p>
+            <m>.4(20) + .6(10)</m>
+          </p>
+
+          <p>
+            The weight <fillin characters="5" /> makes the number <fillin characters="5" /> the “most important” in this expression.
+          </p>
+        </li>
+
+        <li>
+          <p>
+            <m>s(.5) + (1-s)(.7)</m>, <m>0 \leq s \leq 1</m>
+          </p>
+
+          <p>
+            If the weight <fillin characters="5" /> is large, then the number <fillin characters="5" /> is the “least important” in this expression.
+          </p>
+        </li>
+      </ol>
+    </p>
+  </statement>
+  
+</exercise>
+
+  <exercise>
+    <statement>
+    <p>
+      Consider the updating function
+      <me>
+        x_{t+1}= \frac{9x_{t}}{x_{t} +1}.
+      </me>
+
+      <ol>
+        <li>
+          <p>
+            Find the equilibrium points algebraically.
+          </p>
+        </li>
+
+        <li>
+          <p>
+            Use the updating function to create tables using appropriate initial conditions to determine if each equilibrium point is stable or unstable.
+          </p>
+        </li>
+      </ol>
+    </p>
+
+  </statement>
+ 
+</exercise>
+
+  <exercise>
+    <statement>
+    <p>
+      For each set of criteria, sketch the graph of a function <m>f(x)</m> that meets all criteria.
+    </p>
+
+    <ol>
+      <li>
+        <p>
+          <ul>
+            <li>
+              <p>
+                The domain of <m>f(x)</m> is <m>[-1,2]</m>.
+              </p>
+            </li>
+
+            <li>
+              <p>
+                <m>f(x)</m> is invertible.
+              </p>
+            </li>
+
+            <li>
+              <p>
+                <m>f(0)=1</m>
+              </p>
+            </li>
+
+            <li>
+              <p>
+                <m>f(2) &#x3C; f(-1)</m>
+              </p>
+            </li>
+          </ul>
+        </p>
+      </li>
+
+      <li>
+        <p>
+          <ul>
+            <li>
+              <p>
+                <m>f(0)</m> is undefined (i.e., <m>0</m> is not in the domain of <m>f(x)</m>)
+              </p>
+            </li>
+
+            <li>
+              <p>
+                The range of <m>f(x)</m> is <m>[-1,2]</m>.
+              </p>
+            </li>
+
+            <li>
+              <p>
+                <m>f(x)</m> is not invertible.
+              </p>
+            </li>
+          </ul>
+        </p>
+      </li>
+
+      <li>
+        <p>
+          <ul>
+            <li>
+              <p>
+                <m>AROC_{[0,2]}>0</m>
+              </p>
+            </li>
+
+            <li>
+              <p>
+                <m>f(0) = -1</m>
+              </p>
+            </li>
+
+            <li>
+              <p>
+                <m>\dfrac{f(3) - f(1)}{3-1}&#x3C;0</m>
+              </p>
+            </li>
+          </ul>
+        </p>
+      </li>
+
+      <li>
+        <p>
+          <ul>
+            <li>
+              <p>
+                <m>AROC_{[-1,1]}=0</m>
+              </p>
+            </li>
+
+            <li>
+              <p>
+                <m>AROC_{[0,1]}>0</m>
+              </p>
+            </li>
+
+            <li>
+              <p>
+                <m>AROC_{[0,1]}&#x3C; AROC_{[1,2]}</m>
+              </p>
+            </li>
+          </ul>
+        </p>
+      </li>
+    </ol>
+    </statement>
+    
+  </exercise>
+
+  <exercise>
+    <statement>
+    <p>
+      Examples of the following descriptions do not exist.
+      Explain why.
+      <ol>
+        <li>
+          <p>
+            An angle <m>\theta</m> such that <m>\tan(\theta) = \cos(\theta) = 0</m>.
+            (You should reference what these quantities represent in the unit circle in your explanation.)
+          </p>
+        </li>
+
+        <li>
+          <p>
+            An exponential function <m>g(x) = b^{x}</m> such that <m>\dfrac{AROC_{[1,2]}}{AROC_{[0,1]}}> b</m>.
+          </p>
+        </li>
+      </ol>
+    </p>
+    </statement>
+    
+  </exercise>
+
+
+</page>
+
+
+            </worksheet>
+
+            
+        
+  <worksheet>
             <title>Midterm 1 Practice Set (with solutions)</title>
             <introduction>
                 <p>
@@ -824,7 +1344,7 @@ be able to justify these answers on an exam with relevant work shown.
 </page>
 
 
-            </worksheet>
+</worksheet>
 
             <worksheet xml:id="midterm1-sample" margin="1in" bottom="1.25cm">
             <title>Sample Midterm 1</title>
