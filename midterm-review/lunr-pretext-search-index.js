@@ -286,7 +286,250 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Midterm 2",
-  "body": " Midterm 2   Below you will find a practice set (with solutions) and a sample exam.    Midterm 2 Practice Set (with solutions)    Sample Midterm 2   "
+  "body": " Midterm 2   Below you will find a practice set (with solutions) and a sample exam.    Midterm 2 Practice Set     For each set of criteria, sketch one graph that meets all criteria.                                      DNE                                                           Consider the function    Find the average rate of change in between time and     Find the average rate of change of between time and time .    Find the instantaneous rate of change of at using your answer from part (b) and the limit definition of the derivative.         Find the derivative functions of the following functions:                        , where and are unknown functions           For the function below, label   One critical point of .    One point where is positive.    One point where is negative.    One point where is positive.    One point where is negative.    One inflection point of .      Graph of y as a function of x.          Find the linear approximation of centered at . Denote this .    Find the quadratic approximation of centered at . Denote this .    Evaluate and . These two values give approximations of what number?    Do you expect to be an overestimate or an underestimate of the value it is approximating? Sketch a graph to justify your answer.    Do you expect or to be a better approximation?           You know that a function satisfies the following criteria:              for all       You have enough information to write the linear approximation for centered at which -value? Write the equation of .    Is it more appropriate to use to estimate or ? Why?    Use to estimate the value that you chose above. Is your estimate an overestimate or underestimate of the true value?              Draw an example of an updating function with a stable equilibrium at such that the cobwebbing algorithm oscillates on either side of the equilibrium. Give a rough estimate of What does the Stability Theorem say about the equilibrium?      Draw an example of an updating function with an unstable equilibrium at such that the cobwebbing algorithm oscillates on either side of the equilibrium. Give a rough estimate of What does the Stability Theorem say about the equilibrium?      Draw an example of an updating function with a half-stable equilibrium at Give a rough estimate of What does the Stability Theorem say about the equilibrium?             Consider the modified logistic dynamical system .   Determine all of the positive equilibrium points of this system.    For each positive equilibrium point, determine the values of which make that point stable using the Stability Theorem.         Find the absolute maximum and absolute minimum values of on the domain .      Find the critical number(s) of and classify them as being local minima, local maxima, or neither of the function .      Use the graph of (the derivative of ) to answer the questions.  Graph of h prime, which has a zero at x=-1 and x=3. The graph increases until x=0.25, decreases until x=3, then increases for x bigger than 3.     What are the critical number(s) of ?    Classify each critical number as a local maximum, local minimum, or neither of using the first derivative test. Illustrate your reasoning with a first derivative sign chart.    What does the second derivative test say about each critical number?          Midterm 2 Practice Set (with solutions)     For each set of criteria, sketch one graph that meets all criteria.                                      DNE                                                         Various answers are possible. Please see an instructor if you would like to check your work or discuss possible solutions.      Consider the function    Find the average rate of change in between time and     Find the average rate of change of between time and time .    Find the instantaneous rate of change of at using your answer from part (b) and the limit definition of the derivative.                              Find the derivative functions of the following functions:                        , where and are unknown functions                                          For the function below, label   One critical point of .    One point where is positive.    One point where is negative.    One point where is positive.    One point where is negative.    One inflection point of .      Graph of y as a function of x.     Various answers are possible. Please see an instructor if you would like to check your work or discuss possible solutions.         Find the linear approximation of centered at . Denote this .    Find the quadratic approximation of centered at . Denote this .    Evaluate and . These two values give approximations of what number?    Do you expect to be an overestimate or an underestimate of the value it is approximating? Sketch a graph to justify your answer.    Do you expect or to be a better approximation?                            We expect an underestimate, as seen on the graph of with its linear approximation at .     , since also matches in concavity at .           You know that a function satisfies the following criteria:              for all       You have enough information to write the linear approximation for centered at which -value? Write the equation of .    Is it more appropriate to use to estimate or ? Why?    Use to estimate the value that you chose above. Is your estimate an overestimate or underestimate of the true value?          The center is , and      , since is closest to the center.     . This is an overestimate, since is concave down.              Draw an example of an updating function with a stable equilibrium at such that the cobwebbing algorithm oscillates on either side of the equilibrium. Give a rough estimate of What does the Stability Theorem say about the equilibrium?      Draw an example of an updating function with an unstable equilibrium at such that the cobwebbing algorithm oscillates on either side of the equilibrium. Give a rough estimate of What does the Stability Theorem say about the equilibrium?      Draw an example of an updating function with a half-stable equilibrium at Give a rough estimate of What does the Stability Theorem say about the equilibrium?         Various answers are possible. Please see an instructor if you would like to check your work or discuss possible solutions.        Consider the modified logistic dynamical system .   Determine all of the positive equilibrium points of this system.    For each positive equilibrium point, determine the values of which make that point stable using the Stability Theorem.          Solve to find , which is positive when .     , so .   , so is stable when , or when .         Find the absolute maximum and absolute minimum values of on the domain .    We find critical numbers of by solving and also where does not exist. when and does not exist when , which are both in the domain we are considering.   , , and . So the absolute maximum of is (and is achieved at ), and the absolute minimum is (and is achieved at ).      Find the critical number(s) of and classify them as being local minima, local maxima, or neither of the function .     , which is zero at , and does not exist at .  Using the first derivative test, we can test three -values: one less than , one between and , and one greater than .  We find that (so is decreasing), (so is increasing), and (so is increasing). This means is the location of a local minimum of , and is neither.      Use the graph of (the derivative of ) to answer the questions.  Graph of h prime, which has a zero at x=-1 and x=3. The graph increases until x=0.25, decreases until x=3, then increases for x bigger than 3.     What are the critical number(s) of ?    Classify each critical number as a local maximum, local minimum, or neither of using the first derivative test. Illustrate your reasoning with a first derivative sign chart.    What does the second derivative test say about each critical number?                is a local minimum, while is neither. A first derivative sign chart should change from negative to positive at (so the behavior of is decreasing to increasing), and from positive to positive at (so the behavior of is increasing to increasing).     , so the second derivative test says that is a local minimum.   , so the second derivative test is inconclusive.          Sample Midterm 2     Use the graph of the function to answer each question below. Write \"DNE\" if a value does not exist.  Graph of the function f.                               evaluated at :                   Let . Then                 Compute the derivative function of each function below using derivative rules. State the rule name(s) that you used in each computation.                                  , where is an unknown differentiable function           Let be a function such that and .   Write the equation for , the linear approximation of centered at .    Use to approximate .    Suppose you also know that for all . Sketch a rough graph of for -values close to , including the graph of . Be sure to label both and .    Label your approximation from part (b) on your graph above. Is it an overestimate or an underestimate of ?           A population (in thousands) changes according to the updating function The equilibrium values of this system are at , , and . Write the updating function rule as “ ”, then compute the derivative of the updating function rule. Use the Stability Theorem to classify each equilibrium value as \"stable\", \"unstable\", or state that the Stability Theorem is \"inconclusive\". You must show your work using the Stability Theorem for credit.        Consider the function .   Compute .     is a critical number of . Explain why in one sentence.     and are critical numbers of . Explain why in one sentence.    Use the first derivative test to classify each of and as a local maximum, local minimum, or neither of . Use a first derivative sign chart to justify your answers.    Find the absolute maximum and minimum values of on the domain . Clearly show all of your work.         "
+},
+{
+  "id": "midterm2-practice-2-1",
+  "level": "2",
+  "url": "sec-mid2.html#midterm2-practice-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  For each set of criteria, sketch one graph that meets all criteria.                                      DNE                                                        "
+},
+{
+  "id": "midterm2-practice-2-2",
+  "level": "2",
+  "url": "sec-mid2.html#midterm2-practice-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Consider the function    Find the average rate of change in between time and     Find the average rate of change of between time and time .    Find the instantaneous rate of change of at using your answer from part (b) and the limit definition of the derivative.      "
+},
+{
+  "id": "midterm2-practice-2-3",
+  "level": "2",
+  "url": "sec-mid2.html#midterm2-practice-2-3",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Find the derivative functions of the following functions:                        , where and are unknown functions      "
+},
+{
+  "id": "midterm2-practice-3-1",
+  "level": "2",
+  "url": "sec-mid2.html#midterm2-practice-3-1",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  For the function below, label   One critical point of .    One point where is positive.    One point where is negative.    One point where is positive.    One point where is negative.    One inflection point of .      Graph of y as a function of x.    "
+},
+{
+  "id": "midterm2-practice-3-2",
+  "level": "2",
+  "url": "sec-mid2.html#midterm2-practice-3-2",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "",
+  "body": "     Find the linear approximation of centered at . Denote this .    Find the quadratic approximation of centered at . Denote this .    Evaluate and . These two values give approximations of what number?    Do you expect to be an overestimate or an underestimate of the value it is approximating? Sketch a graph to justify your answer.    Do you expect or to be a better approximation?      "
+},
+{
+  "id": "midterm2-practice-4-1",
+  "level": "2",
+  "url": "sec-mid2.html#midterm2-practice-4-1",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "",
+  "body": "  You know that a function satisfies the following criteria:              for all       You have enough information to write the linear approximation for centered at which -value? Write the equation of .    Is it more appropriate to use to estimate or ? Why?    Use to estimate the value that you chose above. Is your estimate an overestimate or underestimate of the true value?      "
+},
+{
+  "id": "midterm2-practice-5-1",
+  "level": "2",
+  "url": "sec-mid2.html#midterm2-practice-5-1",
+  "type": "Worksheet Exercise",
+  "number": "7",
+  "title": "",
+  "body": "     Draw an example of an updating function with a stable equilibrium at such that the cobwebbing algorithm oscillates on either side of the equilibrium. Give a rough estimate of What does the Stability Theorem say about the equilibrium?      Draw an example of an updating function with an unstable equilibrium at such that the cobwebbing algorithm oscillates on either side of the equilibrium. Give a rough estimate of What does the Stability Theorem say about the equilibrium?      Draw an example of an updating function with a half-stable equilibrium at Give a rough estimate of What does the Stability Theorem say about the equilibrium?        "
+},
+{
+  "id": "midterm2-practice-6-1",
+  "level": "2",
+  "url": "sec-mid2.html#midterm2-practice-6-1",
+  "type": "Worksheet Exercise",
+  "number": "8",
+  "title": "",
+  "body": "  Consider the modified logistic dynamical system .   Determine all of the positive equilibrium points of this system.    For each positive equilibrium point, determine the values of which make that point stable using the Stability Theorem.      "
+},
+{
+  "id": "midterm2-practice-6-2",
+  "level": "2",
+  "url": "sec-mid2.html#midterm2-practice-6-2",
+  "type": "Worksheet Exercise",
+  "number": "9",
+  "title": "",
+  "body": "  Find the absolute maximum and absolute minimum values of on the domain .   "
+},
+{
+  "id": "midterm2-practice-6-3",
+  "level": "2",
+  "url": "sec-mid2.html#midterm2-practice-6-3",
+  "type": "Worksheet Exercise",
+  "number": "10",
+  "title": "",
+  "body": "  Find the critical number(s) of and classify them as being local minima, local maxima, or neither of the function .   "
+},
+{
+  "id": "midterm2-practice-6-4",
+  "level": "2",
+  "url": "sec-mid2.html#midterm2-practice-6-4",
+  "type": "Worksheet Exercise",
+  "number": "11",
+  "title": "",
+  "body": "  Use the graph of (the derivative of ) to answer the questions.  Graph of h prime, which has a zero at x=-1 and x=3. The graph increases until x=0.25, decreases until x=3, then increases for x bigger than 3.     What are the critical number(s) of ?    Classify each critical number as a local maximum, local minimum, or neither of using the first derivative test. Illustrate your reasoning with a first derivative sign chart.    What does the second derivative test say about each critical number?      "
+},
+{
+  "id": "sec-mid2-4-2-1",
+  "level": "2",
+  "url": "sec-mid2.html#sec-mid2-4-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  For each set of criteria, sketch one graph that meets all criteria.                                      DNE                                                         Various answers are possible. Please see an instructor if you would like to check your work or discuss possible solutions.   "
+},
+{
+  "id": "sec-mid2-4-2-2",
+  "level": "2",
+  "url": "sec-mid2.html#sec-mid2-4-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Consider the function    Find the average rate of change in between time and     Find the average rate of change of between time and time .    Find the instantaneous rate of change of at using your answer from part (b) and the limit definition of the derivative.                           "
+},
+{
+  "id": "sec-mid2-4-2-3",
+  "level": "2",
+  "url": "sec-mid2.html#sec-mid2-4-2-3",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Find the derivative functions of the following functions:                        , where and are unknown functions                                     "
+},
+{
+  "id": "sec-mid2-4-3-1",
+  "level": "2",
+  "url": "sec-mid2.html#sec-mid2-4-3-1",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  For the function below, label   One critical point of .    One point where is positive.    One point where is negative.    One point where is positive.    One point where is negative.    One inflection point of .      Graph of y as a function of x.     Various answers are possible. Please see an instructor if you would like to check your work or discuss possible solutions.   "
+},
+{
+  "id": "sec-mid2-4-3-2",
+  "level": "2",
+  "url": "sec-mid2.html#sec-mid2-4-3-2",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "",
+  "body": "     Find the linear approximation of centered at . Denote this .    Find the quadratic approximation of centered at . Denote this .    Evaluate and . These two values give approximations of what number?    Do you expect to be an overestimate or an underestimate of the value it is approximating? Sketch a graph to justify your answer.    Do you expect or to be a better approximation?                            We expect an underestimate, as seen on the graph of with its linear approximation at .     , since also matches in concavity at .      "
+},
+{
+  "id": "sec-mid2-4-4-1",
+  "level": "2",
+  "url": "sec-mid2.html#sec-mid2-4-4-1",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "",
+  "body": "  You know that a function satisfies the following criteria:              for all       You have enough information to write the linear approximation for centered at which -value? Write the equation of .    Is it more appropriate to use to estimate or ? Why?    Use to estimate the value that you chose above. Is your estimate an overestimate or underestimate of the true value?          The center is , and      , since is closest to the center.     . This is an overestimate, since is concave down.      "
+},
+{
+  "id": "sec-mid2-4-5-1",
+  "level": "2",
+  "url": "sec-mid2.html#sec-mid2-4-5-1",
+  "type": "Worksheet Exercise",
+  "number": "7",
+  "title": "",
+  "body": "     Draw an example of an updating function with a stable equilibrium at such that the cobwebbing algorithm oscillates on either side of the equilibrium. Give a rough estimate of What does the Stability Theorem say about the equilibrium?      Draw an example of an updating function with an unstable equilibrium at such that the cobwebbing algorithm oscillates on either side of the equilibrium. Give a rough estimate of What does the Stability Theorem say about the equilibrium?      Draw an example of an updating function with a half-stable equilibrium at Give a rough estimate of What does the Stability Theorem say about the equilibrium?         Various answers are possible. Please see an instructor if you would like to check your work or discuss possible solutions.   "
+},
+{
+  "id": "sec-mid2-4-6-1",
+  "level": "2",
+  "url": "sec-mid2.html#sec-mid2-4-6-1",
+  "type": "Worksheet Exercise",
+  "number": "8",
+  "title": "",
+  "body": "  Consider the modified logistic dynamical system .   Determine all of the positive equilibrium points of this system.    For each positive equilibrium point, determine the values of which make that point stable using the Stability Theorem.          Solve to find , which is positive when .     , so .   , so is stable when , or when .      "
+},
+{
+  "id": "sec-mid2-4-6-2",
+  "level": "2",
+  "url": "sec-mid2.html#sec-mid2-4-6-2",
+  "type": "Worksheet Exercise",
+  "number": "9",
+  "title": "",
+  "body": "  Find the absolute maximum and absolute minimum values of on the domain .    We find critical numbers of by solving and also where does not exist. when and does not exist when , which are both in the domain we are considering.   , , and . So the absolute maximum of is (and is achieved at ), and the absolute minimum is (and is achieved at ).   "
+},
+{
+  "id": "sec-mid2-4-6-3",
+  "level": "2",
+  "url": "sec-mid2.html#sec-mid2-4-6-3",
+  "type": "Worksheet Exercise",
+  "number": "10",
+  "title": "",
+  "body": "  Find the critical number(s) of and classify them as being local minima, local maxima, or neither of the function .     , which is zero at , and does not exist at .  Using the first derivative test, we can test three -values: one less than , one between and , and one greater than .  We find that (so is decreasing), (so is increasing), and (so is increasing). This means is the location of a local minimum of , and is neither.   "
+},
+{
+  "id": "sec-mid2-4-6-4",
+  "level": "2",
+  "url": "sec-mid2.html#sec-mid2-4-6-4",
+  "type": "Worksheet Exercise",
+  "number": "11",
+  "title": "",
+  "body": "  Use the graph of (the derivative of ) to answer the questions.  Graph of h prime, which has a zero at x=-1 and x=3. The graph increases until x=0.25, decreases until x=3, then increases for x bigger than 3.     What are the critical number(s) of ?    Classify each critical number as a local maximum, local minimum, or neither of using the first derivative test. Illustrate your reasoning with a first derivative sign chart.    What does the second derivative test say about each critical number?                is a local minimum, while is neither. A first derivative sign chart should change from negative to positive at (so the behavior of is decreasing to increasing), and from positive to positive at (so the behavior of is increasing to increasing).     , so the second derivative test says that is a local minimum.   , so the second derivative test is inconclusive.      "
+},
+{
+  "id": "midterm2-sample-2-1",
+  "level": "2",
+  "url": "sec-mid2.html#midterm2-sample-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Use the graph of the function to answer each question below. Write \"DNE\" if a value does not exist.  Graph of the function f.                               evaluated at :                   Let . Then            "
+},
+{
+  "id": "midterm2-sample-3-1",
+  "level": "2",
+  "url": "sec-mid2.html#midterm2-sample-3-1",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Compute the derivative function of each function below using derivative rules. State the rule name(s) that you used in each computation.                                  , where is an unknown differentiable function      "
+},
+{
+  "id": "midterm2-sample-4-1",
+  "level": "2",
+  "url": "sec-mid2.html#midterm2-sample-4-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Let be a function such that and .   Write the equation for , the linear approximation of centered at .    Use to approximate .    Suppose you also know that for all . Sketch a rough graph of for -values close to , including the graph of . Be sure to label both and .    Label your approximation from part (b) on your graph above. Is it an overestimate or an underestimate of ?      "
+},
+{
+  "id": "midterm2-sample-5-1",
+  "level": "2",
+  "url": "sec-mid2.html#midterm2-sample-5-1",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  A population (in thousands) changes according to the updating function The equilibrium values of this system are at , , and . Write the updating function rule as “ ”, then compute the derivative of the updating function rule. Use the Stability Theorem to classify each equilibrium value as \"stable\", \"unstable\", or state that the Stability Theorem is \"inconclusive\". You must show your work using the Stability Theorem for credit.   "
+},
+{
+  "id": "midterm2-sample-6-1",
+  "level": "2",
+  "url": "sec-mid2.html#midterm2-sample-6-1",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "",
+  "body": "  Consider the function .   Compute .     is a critical number of . Explain why in one sentence.     and are critical numbers of . Explain why in one sentence.    Use the first derivative test to classify each of and as a local maximum, local minimum, or neither of . Use a first derivative sign chart to justify your answers.    Find the absolute maximum and minimum values of on the domain . Clearly show all of your work.      "
 },
 {
   "id": "sec-new",
