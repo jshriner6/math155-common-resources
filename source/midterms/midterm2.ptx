@@ -964,7 +964,7 @@
                                 </li>
                                 <li>
                                     <p>
-                                        <m>f(x) = rx(3-x) = 3rx-rx^2</m>, so <m>f'(x) = er-2rx</m>.
+                                        <m>f(x) = rx(3-x) = 3rx-rx^2</m>, so <m>f'(x) = 3r-2rx</m>.
                                     </p>
                                     <p>
                                         <m>f'\left(\frac{3r-1}{r}\right) = 2-3r </m>, so <m>z^*</m> is stable when
