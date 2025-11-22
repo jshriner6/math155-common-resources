@@ -9,15 +9,1676 @@
                     Below you will find a practice set (with solutions) and a sample exam. 
                 </p>
             </introduction>
-        
+
             <worksheet xml:id="new-practice" margin="1in" bottom="1.25cm">
-            <title>New Material Practice Set (with solutions)</title>
+            <title>New Material Practice Set</title>
+<exercise>
+    <statement>
+    
+
+
+    <p>
+      Rank the following functions in order of which function dominates another as <m>x \rightarrow \infty</m>.
+      <ol>
+        <li>
+          <p>
+            <m>y = \ln x</m>
+          </p>
+        </li>
+
+        <li>
+          <p>
+            <m>y=0.5^{x}</m>
+          </p>
+        </li>
+
+        <li>
+          <p>
+            <m>y = x</m>
+          </p>
+        </li>
+
+        <li>
+          <p>
+            <m>y = e^{0.1x}</m>
+          </p>
+        </li>
+
+        <li>
+          <p>
+            <m>y = \sqrt{x}</m>
+          </p>
+        </li>
+
+        <li>
+          <p>
+            <m>y = x^{1000}</m>
+          </p>
+        </li>
+      </ol>
+    </p>
+        </statement>
+</exercise>
+
+<exercise>
+        <statement>
+
+    <p>
+      Rank the following functions in order of which function dominates another as <m>x \rightarrow -\infty</m>.
+      <ol>
+        <li>
+          <p>
+            <m>y = 0.5^{x}</m>
+          </p>
+        </li>
+
+        <li>
+          <p>
+            <m>y = x</m>
+          </p>
+        </li>
+
+        <li>
+          <p>
+            <m>y = e^{0.1x}</m>
+          </p>
+        </li>
+
+        <li>
+          <p>
+            <m>y = x^{1/3}</m>
+          </p>
+        </li>
+
+        <li>
+          <p>
+            <m>y = x^{1000}</m>
+          </p>
+        </li>
+      </ol>
+    </p>
+</statement>
+</exercise>
+
+<exercise>
+    <statement>
+    <p>
+      Find the horizontal asymptote(s) of <m>\displaystyle f(x) = \frac{3e^{-x}+ x^{-2}- 2x^{2}}{x+e^{-x}+x^{4}}</m> using the method of leading behaviors.
+    </p>
+        </statement>
+</exercise>
+<exercise>
+<statement>
+    <p>
+      <ol>
+        <li>
+          <p>
+            Which limits below does l’Hospital’s rule apply? If l’Hospital’s rule applies, use it to evaluate the limit.
+          </p>
+
+          <ol>
+            <li>
+              <p>
+                <m>\displaystyle \lim_{x \to 1}\frac{2^{x} - 2}{3^{x} -3}</m>
+              </p>
+            </li>
+
+            <li>
+              <p>
+                <m>\displaystyle \lim_{x \to 1}\frac{2^{x}}{3^{x}}</m>
+              </p>
+            </li>
+
+            <li>
+              <p>
+                <m>\displaystyle \lim_{x \to 0}\frac{\ln(1-x)}{x}</m>
+              </p>
+            </li>
+
+            <li>
+              <p>
+                <m>\displaystyle \lim_{x \to \infty}\frac{\sin(x)}{x}</m>
+              </p>
+            </li>
+
+            <li>
+              <p>
+                <m>\displaystyle \lim_{x \to \infty}\frac{\ln(x)}{\sqrt{x}}</m>
+              </p>
+            </li>
+          </ol>
+        </li>
+      </ol>
+    </p>
+</statement>
+
+</exercise>
+
+<exercise>
+     <statement>
+    <p>
+      Consider the differential equation
+      <me>
+        k'(x) = e^{-x}+ x^{3}
+      </me>
+      with initial condition <m>k(0) = -1</m>.
+      <ol>
+        <li>
+          <p>
+            Use linear approximation centered at <m>a=0</m> to approximate <m>k(0.5)</m>.
+          </p>
+        </li>
+
+        <li>
+          <p>
+            Euler’s method was performed to approximate <m>k(2)</m>.
+            The graph is shown below.
+            What value of <m>\Delta x</m> is being used in the approximation? Clearly write out the computations made using Euler’s method to show how the values in the graph were obtained.
+          </p>
+
+          <p>
+            <image source="euler.png">
+                <shortdescription>Piecewise linear graph passing through (0,-1), (0.5,-0.5), (1,-0.134), (1.5, 0.55), (2,2.349).</shortdescription>
+            </image>
+          </p>
+
+          <p>
+            <m>k(0.5) \approx</m>
+          </p>
+
+          <p>
+            <m>k(1) \approx</m>
+          </p>
+
+          <p>
+            <m>k(1.5) \approx</m>
+          </p>
+
+          <p>
+            <m>k(2) \approx</m>
+          </p>
+        </li>
+
+        <li>
+          <p>
+            Find the specific solution, <m>k(x)</m>, using the initial condition <m>k(0) = -1</m>.
+          </p>
+        </li>
+      </ol>
+    </p>
+    </statement>
+</exercise>
+
+<exercise>
+<statement>
+
+    <p>
+      Evaluate the following integrals using substitution.
+    </p>
+
+    <p>
+      <ol>
+        <li>
+          <p>
+            <m>\displaystyle \int (\cos(x))^{5}\sin(x) dx</m>
+          </p>
+        </li>
+
+        <li>
+          <p>
+            <m>\displaystyle \int_{2}^{5} \frac{1}{x\ln(x)}dx</m>
+          </p>
+        </li>
+      </ol>
+    </p>
+
+    </statement>
+</exercise>
+
+<exercise>
+    <statement>
+    <p>
+      The velocity graph of a car accelerating from rest to a speed of <m>120</m> km/h over a period of <m>30</m> seconds is shown.
+    </p>
+
+    <p>
+      <image source="velocitygraph.png">
+        <shortdescription>Graph of velocity measured in km/h, versus time measured in seconds.</shortdescription>
+      </image>
+
+      <ol>
+        <li>
+          <p>
+            Estimate the distance traveled during this period using <m>R_{6}</m> and <m>L_{6}</m>.
+            Sketch the rectangles used for your estimates on the graph.
+            <em>Be careful with units!</em>
+          </p>
+        </li>
+
+        <li>
+          <p>
+            Estimate the average velocity of the car between <m>0</m> and <m>30</m> seconds.
+          </p>
+        </li>
+      </ol>
+    </p>
+        </statement>
+</exercise>
+
+<exercise>
+<statement>
+
+    <p>
+      A particle moves in a straight line and has acceleration given by <m>a(t) = 6t + 4</m> cm/<m>\mathrm{s}^{2}</m>.
+      Its initial velocity is <m>v(0) = -6</m> cm/s and its initial displacement is <m>s(0) = 9</m> cm.
+      Find its position function <m>s(t).</m>
+    </p>
+
+  </statement>
+  </exercise>
+
+<exercise>
+ <statement>
+    <p>
+      <ol>
+        <li>
+          <p>
+            Use the graph of <m>F'(x)</m> and the Fundamental Theorem of Calculus to complete the table of <m>F(x)</m> below.
+            Be sure to show your work on how you computed values of the table.
+            <image source="FTC.png">
+                <shortdescription>Graph of F prime which is constant 2 from x=0 to x=2, decreases linearly
+                    with slope -1 until x=4, is constant 0 until x=6, then decreases linearly with slope -0.5.
+                </shortdescription>
+            </image>
             
+          </p>
+
+          <p>
+            <tabular>
+              <col halign="center" right="minor"> </col> <col halign="center"> </col>
+              <row>
+                <cell> <m>x</m> </cell>
+                <cell> <m>F(x)</m> </cell>
+              </row>
+
+              <row>
+                <cell> </cell>
+              </row>
+
+              <row>
+                <cell> <m>0</m> </cell>
+                <cell> <m>5</m> </cell>
+              </row>
+
+              <row>
+                <cell> </cell>
+              </row>
+
+              <row>
+                <cell> <m>2</m> </cell>
+                <cell> </cell>
+              </row>
+
+              <row>
+                <cell> </cell>
+              </row>
+
+              <row>
+                <cell> <m>4</m> </cell>
+                <cell> </cell>
+              </row>
+
+              <row>
+                <cell> </cell>
+              </row>
+
+              <row>
+                <cell> <m>6</m> </cell>
+                <cell> </cell>
+              </row>
+
+              <row>
+                <cell> </cell>
+              </row>
+
+              <row>
+                <cell> <m>10</m> </cell>
+                <cell> </cell>
+              </row>
+            </tabular>
+          </p>
+        </li>
+
+        <li>
+          <p>
+            <ul>
+              <li>
+                <p>
+                  From the information above, we cannot easily compute the average value of
+                </p>
+
+                <p>
+                  <m>\underset{F(x)/F'(x)}{\underline{\hspace{2.0cm}}}</m> on <m>[0,10]</m> because <em> </em>
+                </p>
+
+                <p>
+                  <em> </em>.
+                </p>
+              </li>
+
+              <li>
+                <p>
+                  From the information above, we can compute the average value of <m>\underset{F(x)/F'(x)}{\underline{\hspace{3cm}}}</m> on <m>[0,10]</m>, and that average value is <em> </em>.
+                </p>
+
+                <p>
+                  Show how you computed the average here:
+                </p>
+              </li>
+            </ul>
+          </p>
+        </li>
+
+        <li>
+          <p>
+            If the units of <m>F'(x)</m> are liters per second, what are the units of <m>\int_{0}^{10}F'(x) dx</m>?
+          </p>
+        </li>
+      </ol>
+    </p>
+
+</statement>
+</exercise>
+
+<exercise>
+ <statement>
+
+    <p>
+      Fill in the column labeled <m>\int h(x) dx</m> (no justification required).
+      It is useful to have all the rules in a single table to refer to if you do not already.
+    </p>
+
+    <p>
+      <tabular>
+        <col halign="center" right="minor"> </col> <col halign="center"> </col>
+        <row header="yes" bottom="major">
+          <cell> <m>h(x)</m> </cell>
+          <cell> <m>\int h(x) dx</m> </cell>
+        </row>
+
+        <row>
+          <cell> </cell>
+        </row>
+
+        <row>
+          <cell> <m>f(x) + g(x)</m> </cell>
+        </row>
+
+        <row>
+        </row>
+
+        <row>
+          <cell> <m>af(x)</m> </cell>
+        </row>
+
+        <row>
+        </row>
+
+        <row>
+          <cell> <m>x^{n}</m> (<m>n \neq -1</m>)</cell>
+        </row>
+
+        <row>
+        </row>
+
+        <row>
+          <cell> <m>\frac{1}{x}</m> </cell>
+          <cell> </cell>
+        </row>
+
+        <row>
+        </row>
+
+        <row>
+          <cell> <m>e^{x}</m> </cell>
+          <cell> </cell>
+        </row>
+
+        <row>
+        </row>
+
+        <row>
+          <cell> <m>e^{kx}</m> </cell>
+          <cell> </cell>
+        </row>
+
+        <row>
+        </row>
+
+        <row>
+          <cell> <m>b^{x}</m> </cell>
+          <cell> </cell>
+        </row>
+
+        <row>
+        </row>
+
+        <row>
+          <cell> <m>\sin x</m> </cell>
+          <cell> </cell>
+        </row>
+
+        <row>
+        </row>
+
+        <row>
+          <cell> <m>\cos x</m> </cell>
+          <cell> </cell>
+        </row>
+
+        <row>
+        </row>
+      </tabular>
+    </p>
+    </statement>
+</exercise>
+
+            
+
+            </worksheet>
+        
+            <worksheet xml:id="new-practice-sols" margin="1in" bottom="1.25cm">
+            <title>New Material Practice Set (with solutions)</title>
+            <exercise>
+    <statement>
+    
+
+
+    <p>
+      Rank the following functions in order of which function dominates another as <m>x \rightarrow \infty</m>.
+      <ol>
+        <li>
+          <p>
+            <m>y = \ln x</m>
+          </p>
+        </li>
+
+        <li>
+          <p>
+            <m>y=0.5^{x}</m>
+          </p>
+        </li>
+
+        <li>
+          <p>
+            <m>y = x</m>
+          </p>
+        </li>
+
+        <li>
+          <p>
+            <m>y = e^{0.1x}</m>
+          </p>
+        </li>
+
+        <li>
+          <p>
+            <m>y = \sqrt{x}</m>
+          </p>
+        </li>
+
+        <li>
+          <p>
+            <m>y = x^{1000}</m>
+          </p>
+        </li>
+      </ol>
+    </p>
+        </statement>
+        <solution>
+            <p>
+                <m>0.5^x \lt \ln(x) \lt \sqrt{x} \lt x \lt x^{1000} \lt e^{0.1x}</m>
+            </p>
+        </solution>
+</exercise>
+
+<exercise>
+        <statement>
+
+    <p>
+      Rank the following functions in order of which function dominates another as <m>x \rightarrow -\infty</m>.
+      <ol>
+        <li>
+          <p>
+            <m>y = 0.5^{x}</m>
+          </p>
+        </li>
+
+        <li>
+          <p>
+            <m>y = x</m>
+          </p>
+        </li>
+
+        <li>
+          <p>
+            <m>y = e^{0.1x}</m>
+          </p>
+        </li>
+
+        <li>
+          <p>
+            <m>y = x^{1/3}</m>
+          </p>
+        </li>
+
+        <li>
+          <p>
+            <m>y = x^{1000}</m>
+          </p>
+        </li>
+      </ol>
+    </p>
+</statement>
+<solution>
+    <p>
+        <m>e^{0.1x} \lt x^{1/3} \lt x \lt x^{1000} \lt 0.5^x</m>
+    </p>
+</solution>
+</exercise>
+
+<exercise>
+    <statement>
+    <p>
+      Find the horizontal asymptote(s) of <m>\displaystyle f(x) = \frac{3e^{-x}+ x^{-2}- 2x^{2}}{x+e^{-x}+x^{4}}</m> using the method of leading behaviors.
+    </p>
+        </statement>
+        <solution>
+            <p>
+                <m>\displaystyle \lim_{x\to \infty} f(x) = \lim_{x\to \infty} \frac{-2x^2}{x^4}=0 </m>
+            </p>
+            <p>
+                <m>\displaystyle \lim_{x\to -\infty} f(x) = \lim_{x\to -\infty} \frac{3e^{-x}}{e^{-x}}=3 </m>
+            </p>
+        </solution>
+</exercise>
+<exercise>
+<statement>
+    <p>
+      <ol>
+        <li>
+          <p>
+            Which limits below does l’Hospital’s rule apply? If l’Hospital’s rule applies, use it to evaluate the limit.
+          </p>
+
+          <ol>
+            <li>
+              <p>
+                <m>\displaystyle \lim_{x \to 1}\frac{2^{x} - 2}{3^{x} -3}</m>
+              </p>
+            </li>
+
+            <li>
+              <p>
+                <m>\displaystyle \lim_{x \to 1}\frac{2^{x}}{3^{x}}</m>
+              </p>
+            </li>
+
+            <li>
+              <p>
+                <m>\displaystyle \lim_{x \to 0}\frac{\ln(1-x)}{x}</m>
+              </p>
+            </li>
+
+            <li>
+              <p>
+                <m>\displaystyle \lim_{x \to \infty}\frac{\sin(x)}{x}</m>
+              </p>
+            </li>
+
+            <li>
+              <p>
+                <m>\displaystyle \lim_{x \to \infty}\frac{\ln(x)}{\sqrt{x}}</m>
+              </p>
+            </li>
+          </ol>
+        </li>
+      </ol>
+    </p>
+</statement>
+<solution>
+    <p>
+        LH Rule does not apply to <m>\lim_{x \to 1} \frac{2^x}{3^x}</m> and <m>\lim_{x \to \infty} \frac{\sin(x)}{x}</m>.
+    </p>
+    <p>
+        <m>\displaystyle \lim_{x \to 1}\frac{2^x-2}{3^x-3} = \lim_{x\to 1} \frac{\ln(2)2^x}{\ln(3)3^x}= \frac{2\ln(2)}{3\ln(3)}</m>
+    </p>
+    <p>
+        <m>\displaystyle \lim_{x \to 0}\frac{\ln(1-x)}{x} = \lim_{x\to 0} \frac{-1}{1-x}= -1</m>
+    </p>
+    <p>
+        <m>\displaystyle \lim_{x \to \infty}\frac{\ln(x)}{\sqrt{x}} = \lim_{x\to \infty} \frac{x^{-1}}{0.5x^{-1/2}}= \lim_{x\to \infty} \frac{2}{x^{1/2}}=0</m>
+    </p>
+</solution>
+
+</exercise>
+
+<exercise>
+     <statement>
+    <p>
+      Consider the differential equation
+      <me>
+        k'(x) = e^{-x}+ x^{3}
+      </me>
+      with initial condition <m>k(0) = -1</m>.
+      <ol>
+        <li>
+          <p>
+            Use linear approximation centered at <m>a=0</m> to approximate <m>k(0.5)</m>.
+          </p>
+        </li>
+
+        <li>
+          <p>
+            Euler’s method was performed to approximate <m>k(2)</m>.
+            The graph is shown below.
+            What value of <m>\Delta x</m> is being used in the approximation? Clearly write out the computations made using Euler’s method to show how the values in the graph were obtained.
+          </p>
+
+          <p>
+            <image source="euler.png">
+                <shortdescription>Piecewise linear graph passing through (0,-1), (0.5,-0.5), (1,-0.134), (1.5, 0.55), (2,2.349).</shortdescription>
+            </image>
+          </p>
+
+          <p>
+            <m>k(0.5) \approx</m>
+          </p>
+
+          <p>
+            <m>k(1) \approx</m>
+          </p>
+
+          <p>
+            <m>k(1.5) \approx</m>
+          </p>
+
+          <p>
+            <m>k(2) \approx</m>
+          </p>
+        </li>
+
+        <li>
+          <p>
+            Find the specific solution, <m>k(x)</m>, using the initial condition <m>k(0) = -1</m>.
+          </p>
+        </li>
+      </ol>
+    </p>
+    </statement>
+    <solution>
+        <p>
+            <m>L(x)= k(0) +k'(0)x = -1 + x</m>. So
+            <m>k(0.5) \approx L(0.5) = -0.5</m>.
+        </p>
+        <p>
+            We organize the computations in Euler's method
+            as a table:
+            <tabular>
+                <row header="yes" bottom="major">
+                    <cell><m>x_i</m></cell>
+                    <cell><m>k_i</m></cell>
+                    <cell><m>\frac{dk}{dx}</m></cell>
+                    <cell><m>\Delta k</m></cell>
+                </row>
+                <row>
+                    <cell><m>0</m></cell>
+                    <cell><m>-1</m></cell>
+                    <cell><m>1</m></cell>
+                    <cell><m>0.5</m></cell>
+                </row>
+                <row>
+                    <cell><m>0.5</m></cell>
+                    <cell><m>-0.5</m></cell>
+                    <cell><m>e^{-.5}+ 0.5^3</m></cell>
+                    <cell><m>0.366</m></cell>
+                </row>
+                <row>
+                    <cell><m>1</m></cell>
+                    <cell><m>-0.134</m></cell>
+                    <cell><m>e^{-1} + 1</m></cell>
+                    <cell><m>0.684</m></cell>
+                </row>
+                <row>
+                    <cell><m>1.5</m></cell>
+                    <cell><m>0.55</m></cell>
+                    <cell><m>e^{-1.5}+ 1.5^3</m></cell>
+                    <cell><m>1.799</m></cell>
+                </row>
+                <row>
+                    <cell><m>2</m></cell>
+                    <cell><m>2.349</m></cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+            </tabular>
+        </p>
+        <p>
+            <m>k(x) = -e^{-x}+ 0.25x^4 + C</m>. Using <m>k(0)=-1</m>, we find <m>C= 0.</m>
+        </p>
+    </solution>
+</exercise>
+
+<exercise>
+<statement>
+
+    <p>
+      Evaluate the following integrals using substitution.
+    </p>
+
+    <p>
+      <ol>
+        <li>
+          <p>
+            <m>\displaystyle \int (\cos(x))^{5}\sin(x) dx</m>
+          </p>
+        </li>
+
+        <li>
+          <p>
+            <m>\displaystyle \int_{2}^{5} \frac{1}{x\ln(x)}dx</m>
+          </p>
+        </li>
+      </ol>
+    </p>
+
+    </statement>
+    <solution>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        Choosing <m>u = \cos(x)</m> and substituting, you should obtain 
+                        <me>
+                            \int -u^5 \quad du = -1/6u^6 + C = -1/6(\cos(x))^6 + C
+                        </me>
+                        
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Choosing <m>u=\ln(x)</m> and substituting, you should obtain
+                        <me>
+                            \int_{\ln(x)}^{\ln(5)} \frac{1}{u}du = \ln(\ln(5)) -\ln(\ln(2))
+                        </me>
+                        
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </solution>
+</exercise>
+
+<exercise>
+    <statement>
+    <p>
+      The velocity graph of a car accelerating from rest to a speed of <m>120</m> km/h over a period of <m>30</m> seconds is shown.
+    </p>
+
+    <p>
+      <image source="velocitygraph.png">
+        <shortdescription>Graph of velocity measured in km/h, versus time measured in seconds.</shortdescription>
+      </image>
+
+      <ol>
+        <li>
+          <p>
+            Estimate the distance traveled during this period using <m>R_{6}</m> and <m>L_{6}</m>.
+            Sketch the rectangles used for your estimates on the graph.
+            <em>Be careful with units!</em>
+          </p>
+        </li>
+
+        <li>
+          <p>
+            Estimate the average velocity of the car between <m>0</m> and <m>30</m> seconds.
+          </p>
+        </li>
+      </ol>
+    </p>
+        </statement>
+        <solution>
+            <p>
+                See an instructor to verify the sketch of your Riemann sums. After adjusting for units, you should compute
+                <me>
+                    R_6 \approx 0.7972 \text{ km}
+                </me>
+                and
+                <me>
+                    L_6 \approx 0.6306 \text{ km}
+                </me>
+                
+                
+            </p>
+            <p>
+                <m>v_{\text{avg}[0,30]}= \frac{1}{30} \int_0^{30}v(t) \quad dt \approx \frac{1}{30} R_6 = 0.0266 \text{ km/s} = 95.664 \text{ km/hr}</m>
+            </p>
+        </solution>
+</exercise>
+
+<exercise>
+<statement>
+
+    <p>
+      A particle moves in a straight line and has acceleration given by <m>a(t) = 6t + 4</m> cm/<m>\mathrm{s}^{2}</m>.
+      Its initial velocity is <m>v(0) = -6</m> cm/s and its initial displacement is <m>s(0) = 9</m> cm.
+      Find its position function <m>s(t).</m>
+    </p>
+
+  </statement>
+  <solution>
+    <p>
+        <m>a(t) = 6t + 4</m>
+    </p>
+    <p>
+        <m>v(t) = 3t^2+ 4t - 6</m>
+    </p>
+    <p>
+        <m>s(t) = t^3+ 2t^2 - 6t+9</m>
+    </p>
+  </solution>
+  </exercise>
+
+<exercise>
+ <statement>
+    <p>
+      <ol>
+        <li>
+          <p>
+            Use the graph of <m>F'(x)</m> and the Fundamental Theorem of Calculus to complete the table of <m>F(x)</m> below.
+            Be sure to show your work on how you computed values of the table.
+            <image source="FTC.png">
+                <shortdescription>Graph of F prime which is constant 2 from x=0 to x=2, decreases linearly
+                    with slope -1 until x=4, is constant 0 until x=6, then decreases linearly with slope -0.5.
+                </shortdescription>
+            </image>
+            
+          </p>
+
+          <p>
+            <tabular>
+              <col halign="center" right="minor"> </col> <col halign="center"> </col>
+              <row header="yes" bottom="major">
+                <cell> <m>x</m> </cell>
+                <cell> <m>F(x)</m> </cell>
+              </row>
+
+              <row>
+                <cell> </cell>
+              </row>
+
+              <row>
+                <cell> <m>0</m> </cell>
+                <cell> <m>5</m> </cell>
+              </row>
+
+              <row>
+                <cell> </cell>
+              </row>
+
+              <row>
+                <cell> <m>2</m> </cell>
+                <cell> </cell>
+              </row>
+
+              <row>
+                <cell> </cell>
+              </row>
+
+              <row>
+                <cell> <m>4</m> </cell>
+                <cell> </cell>
+              </row>
+
+              <row>
+                <cell> </cell>
+              </row>
+
+              <row>
+                <cell> <m>6</m> </cell>
+                <cell> </cell>
+              </row>
+
+              <row>
+                <cell> </cell>
+              </row>
+
+              <row>
+                <cell> <m>10</m> </cell>
+                <cell> </cell>
+              </row>
+            </tabular>
+          </p>
+        </li>
+
+        <li>
+          <p>
+            <ul>
+              <li>
+                <p>
+                  From the information above, we cannot easily compute the average value of
+                </p>
+
+                <p>
+                  <m>\underset{F(x)/F'(x)}{\underline{\hspace{2.0cm}}}</m> on <m>[0,10]</m> because <em> </em>
+                </p>
+
+                <p>
+                  <em> </em>.
+                </p>
+              </li>
+
+              <li>
+                <p>
+                  From the information above, we can compute the average value of <m>\underset{F(x)/F'(x)}{\underline{\hspace{3cm}}}</m> on <m>[0,10]</m>, and that average value is <em> </em>.
+                </p>
+
+                <p>
+                  Show how you computed the average here:
+                </p>
+              </li>
+            </ul>
+          </p>
+        </li>
+
+        <li>
+          <p>
+            If the units of <m>F'(x)</m> are liters per second, what are the units of <m>\int_{0}^{10}F'(x) dx</m>?
+          </p>
+        </li>
+      </ol>
+    </p>
+
+</statement>
+<solution>
+    <p>
+        <tabular>
+              <col halign="center" right="minor"> </col> <col halign="center"> </col>
+              <row header="yes" bottom="major">
+                <cell> <m>x</m> </cell>
+                <cell> <m>F(x)</m> </cell>
+              </row>
+
+              <row>
+                <cell> </cell>
+              </row>
+
+              <row>
+                <cell> <m>0</m> </cell>
+                <cell> <m>5</m> </cell>
+              </row>
+
+              <row>
+                <cell> </cell>
+              </row>
+
+              <row>
+                <cell> <m>2</m> </cell>
+                <cell> <m>9</m></cell>
+              </row>
+
+              <row>
+                <cell> </cell>
+              </row>
+
+              <row>
+                <cell> <m>4</m> </cell>
+                <cell><m>11</m> </cell>
+              </row>
+
+              <row>
+                <cell> </cell>
+              </row>
+
+              <row>
+                <cell> <m>6</m> </cell>
+                <cell><m>11</m> </cell>
+              </row>
+
+              <row>
+                <cell> </cell>
+              </row>
+
+              <row>
+                <cell> <m>10</m> </cell>
+                <cell><m>7</m> </cell>
+              </row>
+            </tabular>
+    </p>
+    <p>
+        We cannot easily compute the value of <m>F(x)</m>, since we only have a table of <m>5</m> values, and cannot compute
+        <m>\int_0^{10} F(x) \quad dx</m> exactly. We can compute the average value of <m>F'(x)</m>, which is 
+        <m>1/10 \int_0^{10} F'(x) \quad dx = 1/5</m>.
+    </p>
+</solution>
+</exercise>
+
+<exercise>
+ <statement>
+
+    <p>
+      Fill in the column labeled <m>\int h(x) dx</m> (no justification required).
+      It is useful to have all the rules in a single table to refer to if you do not already.
+    </p>
+
+    <p>
+      <tabular>
+        <col halign="center" right="minor"> </col> <col halign="center"> </col>
+        <row header="yes" bottom="major">
+          <cell> <m>h(x)</m> </cell>
+          <cell> <m>\int h(x) dx</m> </cell>
+        </row>
+
+        <row>
+          <cell> </cell>
+        </row>
+
+        <row>
+          <cell> <m>f(x) + g(x)</m> </cell>
+        </row>
+
+        <row>
+        </row>
+
+        <row>
+          <cell> <m>af(x)</m> </cell>
+        </row>
+
+        <row>
+        </row>
+
+        <row>
+          <cell> <m>x^{n}</m> (<m>n \neq -1</m>)</cell>
+        </row>
+
+        <row>
+        </row>
+
+        <row>
+          <cell> <m>\frac{1}{x}</m> </cell>
+          <cell> </cell>
+        </row>
+
+        <row>
+        </row>
+
+        <row>
+          <cell> <m>e^{x}</m> </cell>
+          <cell> </cell>
+        </row>
+
+        <row>
+        </row>
+
+        <row>
+          <cell> <m>e^{kx}</m> </cell>
+          <cell> </cell>
+        </row>
+
+        <row>
+        </row>
+
+        <row>
+          <cell> <m>b^{x}</m> </cell>
+          <cell> </cell>
+        </row>
+
+        <row>
+        </row>
+
+        <row>
+          <cell> <m>\sin x</m> </cell>
+          <cell> </cell>
+        </row>
+
+        <row>
+        </row>
+
+        <row>
+          <cell> <m>\cos x</m> </cell>
+          <cell> </cell>
+        </row>
+
+        <row>
+        </row>
+      </tabular>
+    </p>
+    </statement>
+    <solution>
+        <p>
+            Reference the textbook, or ask an instructor if you have questions on the basic antiderivative rules.
+        </p>
+    </solution>
+</exercise>
+
 
             </worksheet>
 
             <worksheet xml:id="final-sample" margin="1in" bottom="1.25cm">
             <title>Sample Final</title>
+                <p>
+                    <em>Begin Midterm 1 Section</em>
+                </p>
+
+                
+                    <exercise workspace="0.25in">
+                        <p>
+            Use the graph of the function <m>g(x)</m> and the table of the invertible function <m>h(x)</m> to answer each question below.
+            Write “UND” if a value is undefined.
+        </p>
+        <sidebyside>
+        <image source="g.png">
+          <shortdescription>Graph of g which contains open circles at (0,0) and (2,4), and 
+            a closed circle at (0,3). The graph also passes through (1,1) and (-1,1).
+          </shortdescription>
+        </image>
+
+      
+        <tabular>
+            <col halign="center" right="minor"> </col> <col halign="center"> </col>
+            <row header="yes" bottom="major">
+                <cell> <m>x</m> </cell>
+                <cell> <m>h(x)</m> </cell>
+            </row>
+
+            <row>
+                <cell> </cell>
+            </row>
+
+            <row>
+                <cell>-2</cell>
+                <cell>-5</cell>
+            </row>
+
+            <row>
+                <cell>-1</cell>
+                <cell>-3</cell>
+            </row>
+
+            <row>
+                <cell>0</cell>
+                <cell>-2</cell>
+            </row>
+
+            <row>
+                <cell>1</cell>
+                <cell>3</cell>
+            </row>
+        </tabular>
+        </sidebyside>
+<ol marker="a.">
+    <li>
+        <p>
+            <m>g(0) =</m>
+        </p>
+    </li>
+
+    <li>
+        <p>
+            <m>g(2) =</m>
+        </p>
+    </li>
+
+    <li>
+        <p>
+            <m>h^{-1}(-2)=</m>
+        </p>
+    </li>
+
+    <li>
+        <p>
+            <m>(h+g)(-1)=</m>
+        </p>
+    </li>
+
+    <li>
+        <p>
+            <m>h(g(1))=</m>
+        </p>
+    </li>
+
+    <li>
+        <p>
+            <m>h^{-1}(h(-1))=</m>
+        </p>
+
+        <p>
+        </p>
+    </li>
+
+    <li>
+        <p>
+            Compute <m>AROC_{[-2,0]}</m> for the function <m>h(x)</m>.
+        </p>
+    </li>
+    <li>
+        <p>
+            Compute <m>AROC_{[-1,1]}</m> for the function <m>g(x)</m>.
+Illustrate the meaning of this value on the graph of <m>g(x)</m>, and label it <m>AROC_{[-1,1]}</m>.
+        </p>
+    </li>
+<li>
+    <p> 
+    Rank the following values from smallest to largest.
+Enter only the numerals i, ii, and iii in the blanks provided.
+You need not make any computation to do so.
+            <dl>
+            <li>
+                <title>i.</title>
+
+                <p>
+                    <m>\dfrac{g(1)-g(-4)}{1 -(-4)}</m>
+                </p>
+            </li>
+
+            <li>
+                <title>ii.</title>
+
+                <p>
+                    <m>AROC_{[1,2.5]}</m> for <m>g(x)</m>
+                </p>
+            </li>
+
+            <li>
+                <title>iii.</title>
+
+                <p>
+                    <m>\dfrac{g(3)-g(1.5)}{3 -1.5}</m>
+                </p>
+            </li>
+            </dl>
+</p>
+<me>
+    \underline{\hspace{1.5cm}}&#x3C;\underline{\hspace{1.5cm}}&#x3C;\underline{\hspace{1.5cm}}
+</me>
+</li>
+
+</ol>
+                
+                    </exercise>
+                    
+    
+                
+                
+           
+                <exercise workspace="0.05in">
+                     <p>
+        Consider the updating function <m>c_{t+1}= 2c_{t} -3</m>.
+            <ol>
+                <li>
+                    <p>
+                        Sketch the graph of the updating function, correctly labeling all axes.
+                        <image source="blank-c.png">
+                          <shortdescription>Blank grid for sketching.</shortdescription>
+                        </image>
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        If <m>c_{0} =4</m>, complete the following table to determine the value of <m>c_{3}</m>.
+                       
+                            <tabular>
+    <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center"> </col>
+    <row header="yes" bottom="major">
+        <cell> <m>t</m> </cell>
+        <cell><m>c_{t}</m> </cell>
+        <cell><m>c_{t+1}</m> </cell>
+    </row>
+
+    <row>
+        <cell>0</cell>
+        <cell></cell>
+        <cell></cell>
+    </row>
+
+
+    <row>
+        <cell>1</cell>
+        <cell></cell>
+        <cell></cell>
+    </row>
+
+    
+
+    <row>
+        <cell>2</cell>
+        <cell></cell>
+        <cell></cell>
+    </row>
+</tabular>
+                
+                        <m>c_{3} =</m> <fillin characters="5" />
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        Find the equilibrium value of this system algebraically.
+                        You must show the equation you are using to find the equilibrium value, as well as solve the equation.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                       Use <em>cobwebbing</em> on your graph from part (a) to classify the equilibrium point as <em>stable</em> or <em>unstable</em>.
+You must identify the equilibrium point from the previous point on your graph, and clearly illustrate cobwebbing to receive credit.
+</p>
+                </li>
+            </ol>
+        </p>
+        <p>
+                    <em>End Midterm 1 Section</em>
+                </p>
+                </exercise>
+
+                <p>
+                    <em>Begin Midterm 2 Section</em>
+                </p>
+
+                <exercise>
+                    <statement>
+                    <p>
+                        Use the graph of the function <m>k(x)</m> to answer each question below. Write "DNE" if a value does not exist.
+                        <image source="k.png" width="75%">
+                            <shortdescription>Graph of the function k.</shortdescription>
+                        </image>
+
+ <ol>
+<li>
+    <p>
+        <m>\displaystyle \lim_{x\to 0}k(x)=</m>
+    </p>
+</li>
+
+<li>
+    <p>
+        <m>\displaystyle \lim_{x\to 3}k(x)=</m>
+    </p>
+</li>
+
+<li>
+    <p>
+        <m>\displaystyle \lim_{x\to -1^+}k(x)=</m>
+    </p>
+</li>
+
+<li>
+    <p>
+        <m>\displaystyle \lim_{x\to -1}k(x)=</m>
+    </p>
+</li>
+
+
+<li>
+    <p>
+        <m>\displaystyle \lim_{h\to 0}\frac{k(-4+h) - k(-4)}{h}=</m>
+    </p>
+</li>
+
+
+
+<li>
+    <p>
+        <m>k'(-5) =</m>
+    </p>
+</li>
+
+
+<li>
+    <p>
+        <m>k''(4) =</m>
+    </p>
+</li>
+
+<li>
+    <p>
+        Let <m>j(x) = k(x^2)</m>. Then
+        <p>
+        <m>j'(x)=</m> 
+    </p>
+
+    <p>
+        <m>j'(2)=</m> 
+    </p>
+    </p>
+</li>
+
+<li>
+    <p>
+        <m>k''(0)</m> is (positive/negative/zero/DNE)
+    </p>
+</li>
+<li>
+    <p>
+        You are given that <m>k'(0)= -0.5</m>. Write the linear approximation, <m>L(x)</m>, for <m>k(x)</m> centered at
+        <m>a=0</m>.
+    </p>
+</li>
+<li>
+    <p>
+        Sketch and label <m>L(x)</m> on the graph above. Is <m>L(0.5)</m> an overestimate or underestimate of <m>k(0.5)</m>?
+    </p>
+</li>
+    
+
+</ol>
+
+                    </p>
+
+                </statement>
+                    
+                </exercise>
+
+                <exercise workspace="4in">
+                    <statement>
+                        <p>
+                            <ol>
+                                
+          
+                        <li>
+                        <p>
+                            The updating function <m>p_{t+1}= 3p_{t} -(p_{t})^{2}</m> has equilibrium points at <m>p^{*} =0</m> and <m>p^{*}=2</m>.
+                            <ol>
+                                <li>
+                                    <p>
+                                        Write the updating function rule as "<m>f(x)=</m>", then compute the derivative of the updating function rule.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        According to the Stability Theorem, <m>p^*=0</m> is (stable/unstable/inconclusive). <em>You must show all
+                                            work to receive credit.
+                                        </em>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        According to the Stability Theorem, <m>p^*=2</m> is (stable/unstable/inconclusive). <em>You must show all
+                                            work to receive credit.
+                                        </em>
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Consider the function <m>\ell(x) =\frac{1}{3}x^{3}-3x^{2}+8x-4</m>.
+<ol>
+  <li>
+    <p>
+      Explain why <m>x=2</m> and <m>x=4</m> are <em>critical numbers</em> of <m>\ell(x)</m>.
+    </p>
+  </li>
+
+  <li>
+    <p>
+      Use a <alert>first derivative sign chart</alert> to classify <m>x=2</m> and <m>x=4</m> as local maxima, local minima, or neither of <m>\ell(x)</m>.
+    </p>
+  </li>
+
+  <li>
+    <p>
+      At what <m>x</m>-values do the absolute maximum and absolute minimum of <m>\ell(x)</m> occur on the interval <m>[0,3]</m>? You must use calculus to justify your answer.
+    </p>
+  </li>
+</ol>
+                        </p>
+                    </li>
+                </ol>
+
+                    </p>
+
+                    <p>
+                    <em>End Midterm 2 Section</em>
+                </p>
+                    </statement>
+                    
+                </exercise>
+
+                <p>
+                    <em>Begin New Material Section</em>
+                </p>
+                
+
+                <exercise workspace="4in">
+
+                   <ol>
+  <li>
+    <p>
+      For each limit below, write a new limit using leading behaviors.
+      You do not need to compute the limit.
+    </p>
+
+    <p>
+      <ol>
+        <li>
+          <p>
+            <m>\displaystyle \lim_{x \to \infty}\dfrac{\sqrt{x}+ \ln(x)}{x^{100} +e^x+ x^{-2}}= \lim_{x \to \infty}</m>
+          </p>
+        </li>
+
+        <li>
+          <p>
+            <m>\displaystyle \lim_{x \to -\infty}\dfrac{x^{100} +e^x+ x^{-2}}{0.5^x -x}= \lim_{x \to -\infty}</m>
+          </p>
+        </li>
+      </ol>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      Explain why L’Hospital’s rule can be used to compute the following limit, then compute the limit.
+      <dl>
+      <li>
+        <title> </title>
+
+        <p>
+          <m>\displaystyle \lim_{x \to 0}\frac{e^{x} - 1}{\sin(x)}</m>
+        </p>
+      </li>
+      </dl>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      Consider the differential equation <m>k'(x) = 5 - 4x + 12x^{2}</m> with initial condition <m>k(0) = -1</m>.
+      <ol>
+        <li>
+          <p>
+            Use Euler’s method with <m>\Delta x =1</m> to approximate <m>k(2)</m>.
+          </p>
+        </li>
+
+        <li>
+          <p>
+            Find the specific solution, <m>k(x)</m>, using antiderivatives and the initial value <m>k(0)=-1</m>.
+          </p>
+        </li>
+      </ol>
+    </p>
+  </li>
+</ol>
+                    
+                </exercise>
+     
+
+            <exercise>
+  <ol>
+  <li>
+    <p>
+      Evaluate each integral below using substitution.
+      <ol>
+        <li>
+          <p>
+            <m>\displaystyle \int \frac{(\ln(x))^{3}}{x}dx</m>
+          </p>
+        </li>
+
+        <li>
+          <p>
+            <m>\displaystyle \int_{0}^{\frac{\pi}{2}}\cos(x) e^{\sin(x)}dx</m>
+          </p>
+        </li>
+      </ol>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      A population changes according to the graph <m>P\,'(t)</m> (hundreds/year) below.
+        <image source="p'.png" width="75%">
+            <shortdescription>Graph of P prime which passes through the point (0,1) decreases linearly
+                with slope -1 until t=2, increases linearly with slope 1 until t=4, then remains constant at 
+                the output value 1.
+            </shortdescription>
+        </image>
+    
+
+
+      <ol>
+        <li>
+          <p>
+            Sketch the rectangles for the Riemann sum <m>L_{3}</m> (left with <m>3</m> rectangles) that would be used to estimate <m>\displaystyle \int_{0}^{3} P\,'(t)dt</m>.
+          </p>
+        </li>
+
+        <li>
+          <p>
+            Given that <m>P(0) = 20</m>, use the Fundamental Theorem of Calculus and the graph to compute <m>P(1)</m>.
+          </p>
+        </li>
+
+        <li>
+          <p>
+            Use the graph to compute <m>\displaystyle \int_{1}^{4} P\,'(t) dt</m>.
+            Include units in your answer.
+          </p>
+        </li>
+
+        <li>
+          <p>
+            Use the graph to compute the average value of <m>P\,'(t)</m> on the domain <m>[0,5]</m>.
+          </p>
+        </li>
+      </ol>
+    </p>
+  </li>
+</ol>
+
+            </exercise>
             
 
             </worksheet>
